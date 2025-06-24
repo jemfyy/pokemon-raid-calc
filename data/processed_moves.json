@@ -1,0 +1,3732 @@
+[
+  {
+    "id": "V0013_MOVE_WRAP",
+    "name": "Wrap",
+    "type": "Normal",
+    "power": 60.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 20.0
+  },
+  {
+    "id": "V0014_MOVE_HYPER_BEAM",
+    "name": "Hyper Beam",
+    "type": "Normal",
+    "power": 150.0,
+    "energyDelta": -100,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 37.5
+  },
+  {
+    "id": "V0016_MOVE_DARK_PULSE",
+    "name": "Dark Pulse",
+    "type": "Dark",
+    "power": 80.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 26.67
+  },
+  {
+    "id": "V0018_MOVE_SLUDGE",
+    "name": "Sludge",
+    "type": "Poison",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0020_MOVE_VICE_GRIP",
+    "name": "Vice Grip",
+    "type": "Normal",
+    "power": 35.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 17.5
+  },
+  {
+    "id": "V0021_MOVE_FLAME_WHEEL",
+    "name": "Flame Wheel",
+    "type": "Fire",
+    "power": 55.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 22.0
+  },
+  {
+    "id": "V0022_MOVE_MEGAHORN",
+    "name": "Megahorn",
+    "type": "Bug",
+    "power": 105.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 52.5
+  },
+  {
+    "id": "V0024_MOVE_FLAMETHROWER",
+    "name": "Flamethrower",
+    "type": "Fire",
+    "power": 65.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 32.5
+  },
+  {
+    "id": "V0026_MOVE_DIG",
+    "name": "Dig",
+    "type": "Ground",
+    "power": 100.0,
+    "energyDelta": -50,
+    "duration": 4.5,
+    "category": "Charged",
+    "dps": 22.22
+  },
+  {
+    "id": "V0028_MOVE_CROSS_CHOP",
+    "name": "Cross Chop",
+    "type": "Fighting",
+    "power": 50.0,
+    "energyDelta": -50,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 33.33
+  },
+  {
+    "id": "V0030_MOVE_PSYBEAM",
+    "name": "Psybeam",
+    "type": "Psychic",
+    "power": 65.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 21.67
+  },
+  {
+    "id": "V0031_MOVE_EARTHQUAKE",
+    "name": "Earthquake",
+    "type": "Ground",
+    "power": 140.0,
+    "energyDelta": -100,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0032_MOVE_STONE_EDGE",
+    "name": "Stone Edge",
+    "type": "Rock",
+    "power": 105.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 42.0
+  },
+  {
+    "id": "V0033_MOVE_ICE_PUNCH",
+    "name": "Ice Punch",
+    "type": "Ice",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0034_MOVE_HEART_STAMP",
+    "name": "Heart Stamp",
+    "type": "Psychic",
+    "power": 40.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 20.0
+  },
+  {
+    "id": "V0035_MOVE_DISCHARGE",
+    "name": "Discharge",
+    "type": "Electric",
+    "power": 65.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 26.0
+  },
+  {
+    "id": "V0036_MOVE_FLASH_CANNON",
+    "name": "Flash Cannon",
+    "type": "Steel",
+    "power": 100.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0038_MOVE_DRILL_PECK",
+    "name": "Drill Peck",
+    "type": "Flying",
+    "power": 70.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 28.0
+  },
+  {
+    "id": "V0039_MOVE_ICE_BEAM",
+    "name": "Ice Beam",
+    "type": "Ice",
+    "power": 95.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 27.14
+  },
+  {
+    "id": "V0040_MOVE_BLIZZARD",
+    "name": "Blizzard",
+    "type": "Ice",
+    "power": 130.0,
+    "energyDelta": -100,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 43.33
+  },
+  {
+    "id": "V0042_MOVE_HEAT_WAVE",
+    "name": "Heat Wave",
+    "type": "Fire",
+    "power": 95.0,
+    "energyDelta": -100,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 31.67
+  },
+  {
+    "id": "V0045_MOVE_AERIAL_ACE",
+    "name": "Aerial Ace",
+    "type": "Flying",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 22.0
+  },
+  {
+    "id": "V0046_MOVE_DRILL_RUN",
+    "name": "Drill Run",
+    "type": "Ground",
+    "power": 85.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 28.33
+  },
+  {
+    "id": "V0047_MOVE_PETAL_BLIZZARD",
+    "name": "Petal Blizzard",
+    "type": "Grass",
+    "power": 110.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 44.0
+  },
+  {
+    "id": "V0048_MOVE_MEGA_DRAIN",
+    "name": "Mega Drain",
+    "type": "Grass",
+    "power": 25.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 10.0
+  },
+  {
+    "id": "V0049_MOVE_BUG_BUZZ",
+    "name": "Bug Buzz",
+    "type": "Bug",
+    "power": 95.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 27.14
+  },
+  {
+    "id": "V0050_MOVE_POISON_FANG",
+    "name": "Poison Fang",
+    "type": "Poison",
+    "power": 30.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 20.0
+  },
+  {
+    "id": "V0051_MOVE_NIGHT_SLASH",
+    "name": "Night Slash",
+    "type": "Dark",
+    "power": 45.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 22.5
+  },
+  {
+    "id": "V0053_MOVE_BUBBLE_BEAM",
+    "name": "Bubble Beam",
+    "type": "Water",
+    "power": 45.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 22.5
+  },
+  {
+    "id": "V0054_MOVE_SUBMISSION",
+    "name": "Submission",
+    "type": "Fighting",
+    "power": 55.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 27.5
+  },
+  {
+    "id": "V0056_MOVE_LOW_SWEEP",
+    "name": "Low Sweep",
+    "type": "Fighting",
+    "power": 40.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 20.0
+  },
+  {
+    "id": "V0057_MOVE_AQUA_JET",
+    "name": "Aqua Jet",
+    "type": "Water",
+    "power": 45.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 18.0
+  },
+  {
+    "id": "V0058_MOVE_AQUA_TAIL",
+    "name": "Aqua Tail",
+    "type": "Water",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0059_MOVE_SEED_BOMB",
+    "name": "Seed Bomb",
+    "type": "Grass",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 27.5
+  },
+  {
+    "id": "V0060_MOVE_PSYSHOCK",
+    "name": "Psyshock",
+    "type": "Psychic",
+    "power": 60.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 24.0
+  },
+  {
+    "id": "V0062_MOVE_ANCIENT_POWER",
+    "name": "Ancient Power",
+    "type": "Rock",
+    "power": 70.0,
+    "energyDelta": -33,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 20.0
+  },
+  {
+    "id": "V0063_MOVE_ROCK_TOMB",
+    "name": "Rock Tomb",
+    "type": "Rock",
+    "power": 65.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 21.67
+  },
+  {
+    "id": "V0064_MOVE_ROCK_SLIDE",
+    "name": "Rock Slide",
+    "type": "Rock",
+    "power": 75.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0065_MOVE_POWER_GEM",
+    "name": "Power Gem",
+    "type": "Rock",
+    "power": 80.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 26.67
+  },
+  {
+    "id": "V0066_MOVE_SHADOW_SNEAK",
+    "name": "Shadow Sneak",
+    "type": "Ghost",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 16.67
+  },
+  {
+    "id": "V0067_MOVE_SHADOW_PUNCH",
+    "name": "Shadow Punch",
+    "type": "Ghost",
+    "power": 35.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 23.33
+  },
+  {
+    "id": "V0069_MOVE_OMINOUS_WIND",
+    "name": "Ominous Wind",
+    "type": "Ghost",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 22.0
+  },
+  {
+    "id": "V0070_MOVE_SHADOW_BALL",
+    "name": "Shadow Ball",
+    "type": "Ghost",
+    "power": 100.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 33.33
+  },
+  {
+    "id": "V0072_MOVE_MAGNET_BOMB",
+    "name": "Magnet Bomb",
+    "type": "Steel",
+    "power": 75.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0074_MOVE_IRON_HEAD",
+    "name": "Iron Head",
+    "type": "Steel",
+    "power": 60.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0075_MOVE_PARABOLIC_CHARGE",
+    "name": "Parabolic Charge",
+    "type": "Electric",
+    "power": 70.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 23.33
+  },
+  {
+    "id": "V0077_MOVE_THUNDER_PUNCH",
+    "name": "Thunder Punch",
+    "type": "Electric",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0078_MOVE_THUNDER",
+    "name": "Thunder",
+    "type": "Electric",
+    "power": 100.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0079_MOVE_THUNDERBOLT",
+    "name": "Thunderbolt",
+    "type": "Electric",
+    "power": 80.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 32.0
+  },
+  {
+    "id": "V0080_MOVE_TWISTER",
+    "name": "Twister",
+    "type": "Dragon",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 16.67
+  },
+  {
+    "id": "V0082_MOVE_DRAGON_PULSE",
+    "name": "Dragon Pulse",
+    "type": "Dragon",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 25.71
+  },
+  {
+    "id": "V0083_MOVE_DRAGON_CLAW",
+    "name": "Dragon Claw",
+    "type": "Dragon",
+    "power": 45.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0084_MOVE_DISARMING_VOICE",
+    "name": "Disarming Voice",
+    "type": "Fairy",
+    "power": 70.0,
+    "energyDelta": -33,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 17.5
+  },
+  {
+    "id": "V0085_MOVE_DRAINING_KISS",
+    "name": "Draining Kiss",
+    "type": "Fairy",
+    "power": 60.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 24.0
+  },
+  {
+    "id": "V0086_MOVE_DAZZLING_GLEAM",
+    "name": "Dazzling Gleam",
+    "type": "Fairy",
+    "power": 100.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 28.57
+  },
+  {
+    "id": "V0087_MOVE_MOONBLAST",
+    "name": "Moonblast",
+    "type": "Fairy",
+    "power": 130.0,
+    "energyDelta": -100,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 32.5
+  },
+  {
+    "id": "V0088_MOVE_PLAY_ROUGH",
+    "name": "Play Rough",
+    "type": "Fairy",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0089_MOVE_CROSS_POISON",
+    "name": "Cross Poison",
+    "type": "Poison",
+    "power": 40.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 26.67
+  },
+  {
+    "id": "V0090_MOVE_SLUDGE_BOMB",
+    "name": "Sludge Bomb",
+    "type": "Poison",
+    "power": 85.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 34.0
+  },
+  {
+    "id": "V0091_MOVE_SLUDGE_WAVE",
+    "name": "Sludge Wave",
+    "type": "Poison",
+    "power": 105.0,
+    "energyDelta": -100,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 35.0
+  },
+  {
+    "id": "V0092_MOVE_GUNK_SHOT",
+    "name": "Gunk Shot",
+    "type": "Poison",
+    "power": 130.0,
+    "energyDelta": -100,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 43.33
+  },
+  {
+    "id": "V0094_MOVE_BONE_CLUB",
+    "name": "Bone Club",
+    "type": "Ground",
+    "power": 40.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 26.67
+  },
+  {
+    "id": "V0095_MOVE_BULLDOZE",
+    "name": "Bulldoze",
+    "type": "Ground",
+    "power": 80.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 22.86
+  },
+  {
+    "id": "V0096_MOVE_MUD_BOMB",
+    "name": "Mud Bomb",
+    "type": "Ground",
+    "power": 60.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 24.0
+  },
+  {
+    "id": "V0099_MOVE_SIGNAL_BEAM",
+    "name": "Signal Beam",
+    "type": "Bug",
+    "power": 75.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0100_MOVE_X_SCISSOR",
+    "name": "X Scissor",
+    "type": "Bug",
+    "power": 45.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0101_MOVE_FLAME_CHARGE",
+    "name": "Flame Charge",
+    "type": "Fire",
+    "power": 70.0,
+    "energyDelta": -33,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 17.5
+  },
+  {
+    "id": "V0102_MOVE_FLAME_BURST",
+    "name": "Flame Burst",
+    "type": "Fire",
+    "power": 70.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 28.0
+  },
+  {
+    "id": "V0103_MOVE_FIRE_BLAST",
+    "name": "Fire Blast",
+    "type": "Fire",
+    "power": 140.0,
+    "energyDelta": -100,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 35.0
+  },
+  {
+    "id": "V0104_MOVE_BRINE",
+    "name": "Brine",
+    "type": "Water",
+    "power": 65.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 26.0
+  },
+  {
+    "id": "V0105_MOVE_WATER_PULSE",
+    "name": "Water Pulse",
+    "type": "Water",
+    "power": 65.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 21.67
+  },
+  {
+    "id": "V0106_MOVE_SCALD",
+    "name": "Scald",
+    "type": "Water",
+    "power": 75.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 21.43
+  },
+  {
+    "id": "V0107_MOVE_HYDRO_PUMP",
+    "name": "Hydro Pump",
+    "type": "Water",
+    "power": 135.0,
+    "energyDelta": -100,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 38.57
+  },
+  {
+    "id": "V0108_MOVE_PSYCHIC",
+    "name": "Psychic",
+    "type": "Psychic",
+    "power": 95.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 31.67
+  },
+  {
+    "id": "V0109_MOVE_PSYSTRIKE",
+    "name": "Psystrike",
+    "type": "Psychic",
+    "power": 95.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 38.0
+  },
+  {
+    "id": "V0111_MOVE_ICY_WIND",
+    "name": "Icy Wind",
+    "type": "Ice",
+    "power": 65.0,
+    "energyDelta": -33,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 18.57
+  },
+  {
+    "id": "V0114_MOVE_GIGA_DRAIN",
+    "name": "Giga Drain",
+    "type": "Grass",
+    "power": 50.0,
+    "energyDelta": -100,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 12.5
+  },
+  {
+    "id": "V0115_MOVE_FIRE_PUNCH",
+    "name": "Fire Punch",
+    "type": "Fire",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0116_MOVE_SOLAR_BEAM",
+    "name": "Solar Beam",
+    "type": "Grass",
+    "power": 180.0,
+    "energyDelta": -100,
+    "duration": 5.0,
+    "category": "Charged",
+    "dps": 36.0
+  },
+  {
+    "id": "V0117_MOVE_LEAF_BLADE",
+    "name": "Leaf Blade",
+    "type": "Grass",
+    "power": 70.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 28.0
+  },
+  {
+    "id": "V0118_MOVE_POWER_WHIP",
+    "name": "Power Whip",
+    "type": "Grass",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 36.0
+  },
+  {
+    "id": "V0121_MOVE_AIR_CUTTER",
+    "name": "Air Cutter",
+    "type": "Flying",
+    "power": 55.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 22.0
+  },
+  {
+    "id": "V0122_MOVE_HURRICANE",
+    "name": "Hurricane",
+    "type": "Flying",
+    "power": 105.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 42.0
+  },
+  {
+    "id": "V0123_MOVE_BRICK_BREAK",
+    "name": "Brick Break",
+    "type": "Fighting",
+    "power": 40.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 26.67
+  },
+  {
+    "id": "V0125_MOVE_SWIFT",
+    "name": "Swift",
+    "type": "Normal",
+    "power": 65.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 21.67
+  },
+  {
+    "id": "V0126_MOVE_HORN_ATTACK",
+    "name": "Horn Attack",
+    "type": "Normal",
+    "power": 45.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 22.5
+  },
+  {
+    "id": "V0127_MOVE_STOMP",
+    "name": "Stomp",
+    "type": "Normal",
+    "power": 50.0,
+    "energyDelta": -50,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 33.33
+  },
+  {
+    "id": "V0129_MOVE_HYPER_FANG",
+    "name": "Hyper Fang",
+    "type": "Normal",
+    "power": 80.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 32.0
+  },
+  {
+    "id": "V0131_MOVE_BODY_SLAM",
+    "name": "Body Slam",
+    "type": "Normal",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0132_MOVE_REST",
+    "name": "Rest",
+    "type": "Normal",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0133_MOVE_STRUGGLE",
+    "name": "Struggle",
+    "type": "Normal",
+    "power": 35.0,
+    "energyDelta": 0,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 17.5
+  },
+  {
+    "id": "V0134_MOVE_SCALD_BLASTOISE",
+    "name": "Scald Blastoise",
+    "type": "Water",
+    "power": 50.0,
+    "energyDelta": -100,
+    "duration": 4.5,
+    "category": "Charged",
+    "dps": 11.11
+  },
+  {
+    "id": "V0135_MOVE_HYDRO_PUMP_BLASTOISE",
+    "name": "Hydro Pump Blastoise",
+    "type": "Water",
+    "power": 90.0,
+    "energyDelta": -100,
+    "duration": 4.5,
+    "category": "Charged",
+    "dps": 20.0
+  },
+  {
+    "id": "V0136_MOVE_WRAP_GREEN",
+    "name": "Wrap Green",
+    "type": "Normal",
+    "power": 25.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 8.33
+  },
+  {
+    "id": "V0137_MOVE_WRAP_PINK",
+    "name": "Wrap Pink",
+    "type": "Normal",
+    "power": 25.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 8.33
+  },
+  {
+    "id": "V0200_MOVE_FURY_CUTTER_FAST",
+    "name": "Fury Cutter",
+    "type": "Bug",
+    "power": 4.0,
+    "energyDelta": 8,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0201_MOVE_BUG_BITE_FAST",
+    "name": "Bug Bite",
+    "type": "Bug",
+    "power": 5.0,
+    "energyDelta": 6,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0202_MOVE_BITE_FAST",
+    "name": "Bite",
+    "type": "Dark",
+    "power": 6.0,
+    "energyDelta": 4,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 12.0
+  },
+  {
+    "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
+    "name": "Sucker Punch",
+    "type": "Dark",
+    "power": 5.0,
+    "energyDelta": 6,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0204_MOVE_DRAGON_BREATH_FAST",
+    "name": "Dragon Breath",
+    "type": "Dragon",
+    "power": 6.0,
+    "energyDelta": 4,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 12.0
+  },
+  {
+    "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+    "name": "Thunder Shock",
+    "type": "Electric",
+    "power": 4.0,
+    "energyDelta": 7,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0206_MOVE_SPARK_FAST",
+    "name": "Spark",
+    "type": "Electric",
+    "power": 4.0,
+    "energyDelta": 6,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0207_MOVE_LOW_KICK_FAST",
+    "name": "Low Kick",
+    "type": "Fighting",
+    "power": 5.0,
+    "energyDelta": 5,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0208_MOVE_KARATE_CHOP_FAST",
+    "name": "Karate Chop",
+    "type": "Fighting",
+    "power": 10.0,
+    "energyDelta": 13,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0209_MOVE_EMBER_FAST",
+    "name": "Ember",
+    "type": "Fire",
+    "power": 10.0,
+    "energyDelta": 10,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0210_MOVE_WING_ATTACK_FAST",
+    "name": "Wing Attack",
+    "type": "Flying",
+    "power": 10.0,
+    "energyDelta": 11,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0211_MOVE_PECK_FAST",
+    "name": "Peck",
+    "type": "Flying",
+    "power": 10.0,
+    "energyDelta": 10,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0212_MOVE_LICK_FAST",
+    "name": "Lick",
+    "type": "Ghost",
+    "power": 5.0,
+    "energyDelta": 6,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0213_MOVE_SHADOW_CLAW_FAST",
+    "name": "Shadow Claw",
+    "type": "Ghost",
+    "power": 6.0,
+    "energyDelta": 4,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 12.0
+  },
+  {
+    "id": "V0214_MOVE_VINE_WHIP_FAST",
+    "name": "Vine Whip",
+    "type": "Grass",
+    "power": 6.0,
+    "energyDelta": 5,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 12.0
+  },
+  {
+    "id": "V0215_MOVE_RAZOR_LEAF_FAST",
+    "name": "Razor Leaf",
+    "type": "Grass",
+    "power": 13.0,
+    "energyDelta": 7,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 13.0
+  },
+  {
+    "id": "V0216_MOVE_MUD_SHOT_FAST",
+    "name": "Mud Shot",
+    "type": "Ground",
+    "power": 4.0,
+    "energyDelta": 6,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0217_MOVE_ICE_SHARD_FAST",
+    "name": "Ice Shard",
+    "type": "Ice",
+    "power": 10.0,
+    "energyDelta": 10,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0218_MOVE_FROST_BREATH_FAST",
+    "name": "Frost Breath",
+    "type": "Ice",
+    "power": 11.0,
+    "energyDelta": 9,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 11.0
+  },
+  {
+    "id": "V0219_MOVE_QUICK_ATTACK_FAST",
+    "name": "Quick Attack",
+    "type": "Normal",
+    "power": 10.0,
+    "energyDelta": 13,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0220_MOVE_SCRATCH_FAST",
+    "name": "Scratch",
+    "type": "Normal",
+    "power": 6.0,
+    "energyDelta": 4,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 12.0
+  },
+  {
+    "id": "V0221_MOVE_TACKLE_FAST",
+    "name": "Tackle",
+    "type": "Normal",
+    "power": 5.0,
+    "energyDelta": 5,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0222_MOVE_POUND_FAST",
+    "name": "Pound",
+    "type": "Normal",
+    "power": 6.0,
+    "energyDelta": 5,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 12.0
+  },
+  {
+    "id": "V0223_MOVE_CUT_FAST",
+    "name": "Cut",
+    "type": "Normal",
+    "power": 5.0,
+    "energyDelta": 5,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0224_MOVE_POISON_JAB_FAST",
+    "name": "Poison Jab",
+    "type": "Poison",
+    "power": 13.0,
+    "energyDelta": 9,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 13.0
+  },
+  {
+    "id": "V0225_MOVE_ACID_FAST",
+    "name": "Acid",
+    "type": "Poison",
+    "power": 11.0,
+    "energyDelta": 10,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 11.0
+  },
+  {
+    "id": "V0226_MOVE_PSYCHO_CUT_FAST",
+    "name": "Psycho Cut",
+    "type": "Psychic",
+    "power": 4.0,
+    "energyDelta": 7,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0227_MOVE_ROCK_THROW_FAST",
+    "name": "Rock Throw",
+    "type": "Rock",
+    "power": 13.0,
+    "energyDelta": 8,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 13.0
+  },
+  {
+    "id": "V0228_MOVE_METAL_CLAW_FAST",
+    "name": "Metal Claw",
+    "type": "Steel",
+    "power": 6.0,
+    "energyDelta": 5,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 12.0
+  },
+  {
+    "id": "V0229_MOVE_BULLET_PUNCH_FAST",
+    "name": "Bullet Punch",
+    "type": "Steel",
+    "power": 10.0,
+    "energyDelta": 11,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0230_MOVE_WATER_GUN_FAST",
+    "name": "Water Gun",
+    "type": "Water",
+    "power": 5.0,
+    "energyDelta": 5,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0231_MOVE_SPLASH_FAST",
+    "name": "Splash",
+    "type": "Water",
+    "power": 0,
+    "energyDelta": 17,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 0.0
+  },
+  {
+    "id": "V0232_MOVE_WATER_GUN_FAST_BLASTOISE",
+    "name": "Water Gun Blastoise",
+    "type": "Water",
+    "power": 10.0,
+    "energyDelta": 6,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0233_MOVE_MUD_SLAP_FAST",
+    "name": "Mud Slap",
+    "type": "Ground",
+    "power": 19.0,
+    "energyDelta": 13,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 12.67
+  },
+  {
+    "id": "V0234_MOVE_ZEN_HEADBUTT_FAST",
+    "name": "Zen Headbutt",
+    "type": "Psychic",
+    "power": 11.0,
+    "energyDelta": 9,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 11.0
+  },
+  {
+    "id": "V0235_MOVE_CONFUSION_FAST",
+    "name": "Confusion",
+    "type": "Psychic",
+    "power": 19.0,
+    "energyDelta": 14,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 12.67
+  },
+  {
+    "id": "V0236_MOVE_POISON_STING_FAST",
+    "name": "Poison Sting",
+    "type": "Poison",
+    "power": 4.0,
+    "energyDelta": 6,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0237_MOVE_BUBBLE_FAST",
+    "name": "Bubble",
+    "type": "Water",
+    "power": 10.0,
+    "energyDelta": 12,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0238_MOVE_FEINT_ATTACK_FAST",
+    "name": "Feint Attack",
+    "type": "Dark",
+    "power": 11.0,
+    "energyDelta": 10,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 11.0
+  },
+  {
+    "id": "V0239_MOVE_STEEL_WING_FAST",
+    "name": "Steel Wing",
+    "type": "Steel",
+    "power": 14.0,
+    "energyDelta": 8,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 14.0
+  },
+  {
+    "id": "V0240_MOVE_FIRE_FANG_FAST",
+    "name": "Fire Fang",
+    "type": "Fire",
+    "power": 13.0,
+    "energyDelta": 9,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 13.0
+  },
+  {
+    "id": "V0241_MOVE_ROCK_SMASH_FAST",
+    "name": "Rock Smash",
+    "type": "Fighting",
+    "power": 17.0,
+    "energyDelta": 12,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 11.33
+  },
+  {
+    "id": "V0242_MOVE_TRANSFORM_FAST",
+    "name": "Transform",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.0,
+    "category": "Fast",
+    "dps": 0.0
+  },
+  {
+    "id": "V0243_MOVE_COUNTER_FAST",
+    "name": "Counter",
+    "type": "Fighting",
+    "power": 13.0,
+    "energyDelta": 9,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 13.0
+  },
+  {
+    "id": "V0244_MOVE_POWDER_SNOW_FAST",
+    "name": "Powder Snow",
+    "type": "Ice",
+    "power": 6.0,
+    "energyDelta": 15,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 6.0
+  },
+  {
+    "id": "V0245_MOVE_CLOSE_COMBAT",
+    "name": "Close Combat",
+    "type": "Fighting",
+    "power": 105.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 42.0
+  },
+  {
+    "id": "V0246_MOVE_DYNAMIC_PUNCH",
+    "name": "Dynamic Punch",
+    "type": "Fighting",
+    "power": 85.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 34.0
+  },
+  {
+    "id": "V0247_MOVE_FOCUS_BLAST",
+    "name": "Focus Blast",
+    "type": "Fighting",
+    "power": 140.0,
+    "energyDelta": -100,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0248_MOVE_AURORA_BEAM",
+    "name": "Aurora Beam",
+    "type": "Ice",
+    "power": 80.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 22.86
+  },
+  {
+    "id": "V0249_MOVE_CHARGE_BEAM_FAST",
+    "name": "Charge Beam",
+    "type": "Electric",
+    "power": 7.0,
+    "energyDelta": 14,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 7.0
+  },
+  {
+    "id": "V0250_MOVE_VOLT_SWITCH_FAST",
+    "name": "Volt Switch",
+    "type": "Electric",
+    "power": 13.0,
+    "energyDelta": 20,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 8.67
+  },
+  {
+    "id": "V0251_MOVE_WILD_CHARGE",
+    "name": "Wild Charge",
+    "type": "Electric",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 36.0
+  },
+  {
+    "id": "V0252_MOVE_ZAP_CANNON",
+    "name": "Zap Cannon",
+    "type": "Electric",
+    "power": 140.0,
+    "energyDelta": -100,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0253_MOVE_DRAGON_TAIL_FAST",
+    "name": "Dragon Tail",
+    "type": "Dragon",
+    "power": 14.0,
+    "energyDelta": 8,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 14.0
+  },
+  {
+    "id": "V0254_MOVE_AVALANCHE",
+    "name": "Avalanche",
+    "type": "Ice",
+    "power": 85.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 34.0
+  },
+  {
+    "id": "V0255_MOVE_AIR_SLASH_FAST",
+    "name": "Air Slash",
+    "type": "Flying",
+    "power": 12.0,
+    "energyDelta": 8,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 12.0
+  },
+  {
+    "id": "V0256_MOVE_BRAVE_BIRD",
+    "name": "Brave Bird",
+    "type": "Flying",
+    "power": 130.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 65.0
+  },
+  {
+    "id": "V0257_MOVE_SKY_ATTACK",
+    "name": "Sky Attack",
+    "type": "Flying",
+    "power": 80.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0258_MOVE_SAND_TOMB",
+    "name": "Sand Tomb",
+    "type": "Ground",
+    "power": 60.0,
+    "energyDelta": -33,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 15.0
+  },
+  {
+    "id": "V0259_MOVE_ROCK_BLAST",
+    "name": "Rock Blast",
+    "type": "Rock",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0260_MOVE_INFESTATION_FAST",
+    "name": "Infestation",
+    "type": "Bug",
+    "power": 9.0,
+    "energyDelta": 13,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 9.0
+  },
+  {
+    "id": "V0261_MOVE_STRUGGLE_BUG_FAST",
+    "name": "Struggle Bug",
+    "type": "Bug",
+    "power": 15.0,
+    "energyDelta": 15,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0262_MOVE_SILVER_WIND",
+    "name": "Silver Wind",
+    "type": "Bug",
+    "power": 65.0,
+    "energyDelta": -33,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 18.57
+  },
+  {
+    "id": "V0263_MOVE_ASTONISH_FAST",
+    "name": "Astonish",
+    "type": "Ghost",
+    "power": 7.0,
+    "energyDelta": 13,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 7.0
+  },
+  {
+    "id": "V0264_MOVE_HEX_FAST",
+    "name": "Hex",
+    "type": "Ghost",
+    "power": 8.0,
+    "energyDelta": 13,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0265_MOVE_NIGHT_SHADE",
+    "name": "Night Shade",
+    "type": "Ghost",
+    "power": 60.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 24.0
+  },
+  {
+    "id": "V0266_MOVE_IRON_TAIL_FAST",
+    "name": "Iron Tail",
+    "type": "Steel",
+    "power": 14.0,
+    "energyDelta": 6,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 14.0
+  },
+  {
+    "id": "V0267_MOVE_GYRO_BALL",
+    "name": "Gyro Ball",
+    "type": "Steel",
+    "power": 85.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 24.29
+  },
+  {
+    "id": "V0268_MOVE_HEAVY_SLAM",
+    "name": "Heavy Slam",
+    "type": "Steel",
+    "power": 70.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 35.0
+  },
+  {
+    "id": "V0269_MOVE_FIRE_SPIN_FAST",
+    "name": "Fire Spin",
+    "type": "Fire",
+    "power": 13.0,
+    "energyDelta": 9,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 13.0
+  },
+  {
+    "id": "V0270_MOVE_OVERHEAT",
+    "name": "Overheat",
+    "type": "Fire",
+    "power": 160.0,
+    "energyDelta": -100,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0271_MOVE_BULLET_SEED_FAST",
+    "name": "Bullet Seed",
+    "type": "Grass",
+    "power": 7.0,
+    "energyDelta": 13,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 7.0
+  },
+  {
+    "id": "V0272_MOVE_GRASS_KNOT",
+    "name": "Grass Knot",
+    "type": "Grass",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 36.0
+  },
+  {
+    "id": "V0273_MOVE_ENERGY_BALL",
+    "name": "Energy Ball",
+    "type": "Grass",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 22.5
+  },
+  {
+    "id": "V0274_MOVE_EXTRASENSORY_FAST",
+    "name": "Extrasensory",
+    "type": "Psychic",
+    "power": 11.0,
+    "energyDelta": 11,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 11.0
+  },
+  {
+    "id": "V0275_MOVE_FUTURESIGHT",
+    "name": "Futuresight",
+    "type": "Psychic",
+    "power": 115.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 46.0
+  },
+  {
+    "id": "V0276_MOVE_MIRROR_COAT",
+    "name": "Mirror Coat",
+    "type": "Psychic",
+    "power": 60.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 24.0
+  },
+  {
+    "id": "V0277_MOVE_OUTRAGE",
+    "name": "Outrage",
+    "type": "Dragon",
+    "power": 110.0,
+    "energyDelta": -50,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 27.5
+  },
+  {
+    "id": "V0278_MOVE_SNARL_FAST",
+    "name": "Snarl",
+    "type": "Dark",
+    "power": 11.0,
+    "energyDelta": 13,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 11.0
+  },
+  {
+    "id": "V0279_MOVE_CRUNCH",
+    "name": "Crunch",
+    "type": "Dark",
+    "power": 65.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 21.67
+  },
+  {
+    "id": "V0280_MOVE_FOUL_PLAY",
+    "name": "Foul Play",
+    "type": "Dark",
+    "power": 70.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 35.0
+  },
+  {
+    "id": "V0281_MOVE_HIDDEN_POWER_FAST",
+    "name": "Hidden Power",
+    "type": "Normal",
+    "power": 15.0,
+    "energyDelta": 15,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0282_MOVE_TAKE_DOWN_FAST",
+    "name": "Take Down",
+    "type": "Normal",
+    "power": 7.0,
+    "energyDelta": 8,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 7.0
+  },
+  {
+    "id": "V0283_MOVE_WATERFALL_FAST",
+    "name": "Waterfall",
+    "type": "Water",
+    "power": 13.0,
+    "energyDelta": 7,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 13.0
+  },
+  {
+    "id": "V0284_MOVE_SURF",
+    "name": "Surf",
+    "type": "Water",
+    "power": 60.0,
+    "energyDelta": -50,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0285_MOVE_DRACO_METEOR",
+    "name": "Draco Meteor",
+    "type": "Dragon",
+    "power": 150.0,
+    "energyDelta": -100,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 42.86
+  },
+  {
+    "id": "V0286_MOVE_DOOM_DESIRE",
+    "name": "Doom Desire",
+    "type": "Steel",
+    "power": 65.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 43.33
+  },
+  {
+    "id": "V0287_MOVE_YAWN_FAST",
+    "name": "Yawn",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 13,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 0.0
+  },
+  {
+    "id": "V0288_MOVE_PSYCHO_BOOST",
+    "name": "Psycho Boost",
+    "type": "Psychic",
+    "power": 70.0,
+    "energyDelta": -50,
+    "duration": 4.0,
+    "category": "Charged",
+    "dps": 17.5
+  },
+  {
+    "id": "V0289_MOVE_ORIGIN_PULSE",
+    "name": "Origin Pulse",
+    "type": "Water",
+    "power": 120.0,
+    "energyDelta": -100,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 80.0
+  },
+  {
+    "id": "V0290_MOVE_PRECIPICE_BLADES",
+    "name": "Precipice Blades",
+    "type": "Ground",
+    "power": 120.0,
+    "energyDelta": -100,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 80.0
+  },
+  {
+    "id": "V0291_MOVE_PRESENT_FAST",
+    "name": "Present",
+    "type": "Normal",
+    "power": 6.0,
+    "energyDelta": 23,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 4.0
+  },
+  {
+    "id": "V0292_MOVE_WEATHER_BALL_FIRE",
+    "name": "Weather Ball Fire",
+    "type": "Fire",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 36.67
+  },
+  {
+    "id": "V0293_MOVE_WEATHER_BALL_ICE",
+    "name": "Weather Ball Ice",
+    "type": "Ice",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 36.67
+  },
+  {
+    "id": "V0294_MOVE_WEATHER_BALL_ROCK",
+    "name": "Weather Ball Rock",
+    "type": "Rock",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 36.67
+  },
+  {
+    "id": "V0295_MOVE_WEATHER_BALL_WATER",
+    "name": "Weather Ball Water",
+    "type": "Water",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 36.67
+  },
+  {
+    "id": "V0296_MOVE_FRENZY_PLANT",
+    "name": "Frenzy Plant",
+    "type": "Grass",
+    "power": 100.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0297_MOVE_SMACK_DOWN_FAST",
+    "name": "Smack Down",
+    "type": "Rock",
+    "power": 13.0,
+    "energyDelta": 7,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 13.0
+  },
+  {
+    "id": "V0298_MOVE_BLAST_BURN",
+    "name": "Blast Burn",
+    "type": "Fire",
+    "power": 120.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 34.29
+  },
+  {
+    "id": "V0299_MOVE_HYDRO_CANNON",
+    "name": "Hydro Cannon",
+    "type": "Water",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 45.0
+  },
+  {
+    "id": "V0300_MOVE_LAST_RESORT",
+    "name": "Last Resort",
+    "type": "Normal",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0301_MOVE_METEOR_MASH",
+    "name": "Meteor Mash",
+    "type": "Steel",
+    "power": 100.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0302_MOVE_SKULL_BASH",
+    "name": "Skull Bash",
+    "type": "Normal",
+    "power": 130.0,
+    "energyDelta": -100,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 43.33
+  },
+  {
+    "id": "V0303_MOVE_ACID_SPRAY",
+    "name": "Acid Spray",
+    "type": "Poison",
+    "power": 20.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 6.67
+  },
+  {
+    "id": "V0304_MOVE_EARTH_POWER",
+    "name": "Earth Power",
+    "type": "Ground",
+    "power": 100.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 28.57
+  },
+  {
+    "id": "V0305_MOVE_CRABHAMMER",
+    "name": "Crabhammer",
+    "type": "Water",
+    "power": 85.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 42.5
+  },
+  {
+    "id": "V0306_MOVE_LUNGE",
+    "name": "Lunge",
+    "type": "Bug",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 18.33
+  },
+  {
+    "id": "V0307_MOVE_CRUSH_CLAW",
+    "name": "Crush Claw",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "V0308_MOVE_OCTAZOOKA",
+    "name": "Octazooka",
+    "type": "Water",
+    "power": 55.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 22.0
+  },
+  {
+    "id": "V0309_MOVE_MIRROR_SHOT",
+    "name": "Mirror Shot",
+    "type": "Steel",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 20.0
+  },
+  {
+    "id": "V0310_MOVE_SUPER_POWER",
+    "name": "Super Power",
+    "type": "Fighting",
+    "power": 85.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 28.33
+  },
+  {
+    "id": "V0311_MOVE_FELL_STINGER",
+    "name": "Fell Stinger",
+    "type": "Bug",
+    "power": 45.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 22.5
+  },
+  {
+    "id": "V0312_MOVE_LEAF_TORNADO",
+    "name": "Leaf Tornado",
+    "type": "Grass",
+    "power": 45.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 15.0
+  },
+  {
+    "id": "V0313_MOVE_LEECH_LIFE",
+    "name": "Leech Life",
+    "type": "Bug",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "V0314_MOVE_DRAIN_PUNCH",
+    "name": "Drain Punch",
+    "type": "Fighting",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 20.0
+  },
+  {
+    "id": "V0315_MOVE_SHADOW_BONE",
+    "name": "Shadow Bone",
+    "type": "Ghost",
+    "power": 85.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 28.33
+  },
+  {
+    "id": "V0316_MOVE_MUDDY_WATER",
+    "name": "Muddy Water",
+    "type": "Water",
+    "power": 45.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 22.5
+  },
+  {
+    "id": "V0317_MOVE_BLAZE_KICK",
+    "name": "Blaze Kick",
+    "type": "Fire",
+    "power": 40.0,
+    "energyDelta": -33,
+    "duration": 1.0,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0318_MOVE_RAZOR_SHELL",
+    "name": "Razor Shell",
+    "type": "Water",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 36.67
+  },
+  {
+    "id": "V0319_MOVE_POWER_UP_PUNCH",
+    "name": "Power Up Punch",
+    "type": "Fighting",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0320_MOVE_CHARM_FAST",
+    "name": "Charm",
+    "type": "Fairy",
+    "power": 20.0,
+    "energyDelta": 11,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 13.33
+  },
+  {
+    "id": "V0321_MOVE_GIGA_IMPACT",
+    "name": "Giga Impact",
+    "type": "Normal",
+    "power": 200,
+    "energyDelta": -100,
+    "duration": 4.7,
+    "category": "Charged",
+    "dps": 42.55
+  },
+  {
+    "id": "V0322_MOVE_FRUSTRATION",
+    "name": "Frustration",
+    "type": "Normal",
+    "power": 10.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 5.0
+  },
+  {
+    "id": "V0323_MOVE_RETURN",
+    "name": "Return",
+    "type": "Normal",
+    "power": 25.0,
+    "energyDelta": -33,
+    "duration": 0.5,
+    "category": "Charged",
+    "dps": 50.0
+  },
+  {
+    "id": "V0324_MOVE_SYNCHRONOISE",
+    "name": "Synchronoise",
+    "type": "Psychic",
+    "power": 80.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 32.0
+  },
+  {
+    "id": "V0325_MOVE_LOCK_ON_FAST",
+    "name": "Lock On",
+    "type": "Normal",
+    "power": 2.0,
+    "energyDelta": 10,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 4.0
+  },
+  {
+    "id": "V0326_MOVE_THUNDER_FANG_FAST",
+    "name": "Thunder Fang",
+    "type": "Electric",
+    "power": 10.0,
+    "energyDelta": 13,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0327_MOVE_ICE_FANG_FAST",
+    "name": "Ice Fang",
+    "type": "Ice",
+    "power": 12.0,
+    "energyDelta": 20,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0328_MOVE_HORN_DRILL",
+    "name": "Horn Drill",
+    "type": "Normal",
+    "power": 9000.0,
+    "energyDelta": -25,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 4500.0
+  },
+  {
+    "id": "V0329_MOVE_FISSURE",
+    "name": "Fissure",
+    "type": "Ground",
+    "power": 9001.0,
+    "energyDelta": -25,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 3000.33
+  },
+  {
+    "id": "V0330_MOVE_SACRED_SWORD",
+    "name": "Sacred Sword",
+    "type": "Fighting",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 1.0,
+    "category": "Charged",
+    "dps": 50.0
+  },
+  {
+    "id": "V0331_MOVE_FLYING_PRESS",
+    "name": "Flying Press",
+    "type": "Fighting",
+    "power": 115.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 46.0
+  },
+  {
+    "id": "V0332_MOVE_AURA_SPHERE",
+    "name": "Aura Sphere",
+    "type": "Fighting",
+    "power": 100.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 50.0
+  },
+  {
+    "id": "V0333_MOVE_PAYBACK",
+    "name": "Payback",
+    "type": "Dark",
+    "power": 95.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 47.5
+  },
+  {
+    "id": "V0334_MOVE_ROCK_WRECKER",
+    "name": "Rock Wrecker",
+    "type": "Rock",
+    "power": 110.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 31.43
+  },
+  {
+    "id": "V0335_MOVE_AEROBLAST",
+    "name": "Aeroblast",
+    "type": "Flying",
+    "power": 180.0,
+    "energyDelta": -100,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 51.43
+  },
+  {
+    "id": "V0336_MOVE_TECHNO_BLAST_NORMAL",
+    "name": "Techno Blast Normal",
+    "type": "Normal",
+    "power": 120.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 60.0
+  },
+  {
+    "id": "V0337_MOVE_TECHNO_BLAST_BURN",
+    "name": "Techno Blast Burn",
+    "type": "Fire",
+    "power": 120.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 60.0
+  },
+  {
+    "id": "V0338_MOVE_TECHNO_BLAST_CHILL",
+    "name": "Techno Blast Chill",
+    "type": "Ice",
+    "power": 120.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 60.0
+  },
+  {
+    "id": "V0339_MOVE_TECHNO_BLAST_WATER",
+    "name": "Techno Blast Water",
+    "type": "Water",
+    "power": 120.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 60.0
+  },
+  {
+    "id": "V0340_MOVE_TECHNO_BLAST_SHOCK",
+    "name": "Techno Blast Shock",
+    "type": "Electric",
+    "power": 120.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 60.0
+  },
+  {
+    "id": "V0341_MOVE_FLY",
+    "name": "Fly",
+    "type": "Flying",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 45.0
+  },
+  {
+    "id": "V0342_MOVE_V_CREATE",
+    "name": "V Create",
+    "type": "Fire",
+    "power": 105.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 35.0
+  },
+  {
+    "id": "V0343_MOVE_LEAF_STORM",
+    "name": "Leaf Storm",
+    "type": "Grass",
+    "power": 130.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 52.0
+  },
+  {
+    "id": "V0344_MOVE_TRI_ATTACK",
+    "name": "Tri Attack",
+    "type": "Normal",
+    "power": 75.0,
+    "energyDelta": -50,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0345_MOVE_GUST_FAST",
+    "name": "Gust",
+    "type": "Flying",
+    "power": 25.0,
+    "energyDelta": 20,
+    "duration": 2.0,
+    "category": "Fast",
+    "dps": 12.5
+  },
+  {
+    "id": "V0346_MOVE_INCINERATE_FAST",
+    "name": "Incinerate",
+    "type": "Fire",
+    "power": 32.0,
+    "energyDelta": 22,
+    "duration": 2.5,
+    "category": "Fast",
+    "dps": 12.8
+  },
+  {
+    "id": "V0348_MOVE_FEATHER_DANCE",
+    "name": "Feather Dance",
+    "type": "Flying",
+    "power": 35.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 11.67
+  },
+  {
+    "id": "V0350_MOVE_FAIRY_WIND_FAST",
+    "name": "Fairy Wind",
+    "type": "Fairy",
+    "power": 9.0,
+    "energyDelta": 13,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 9.0
+  },
+  {
+    "id": "V0352_MOVE_WEATHER_BALL_NORMAL",
+    "name": "Weather Ball Normal",
+    "type": "Normal",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 36.67
+  },
+  {
+    "id": "V0353_MOVE_PSYCHIC_FANGS",
+    "name": "Psychic Fangs",
+    "type": "Psychic",
+    "power": 25.0,
+    "energyDelta": -33,
+    "duration": 1.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0356_MOVE_DOUBLE_KICK_FAST",
+    "name": "Double Kick",
+    "type": "Fighting",
+    "power": 10.0,
+    "energyDelta": 13,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0357_MOVE_MAGICAL_LEAF_FAST",
+    "name": "Magical Leaf",
+    "type": "Grass",
+    "power": 17.0,
+    "energyDelta": 17,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 11.33
+  },
+  {
+    "id": "V0358_MOVE_SACRED_FIRE",
+    "name": "Sacred Fire",
+    "type": "Fire",
+    "power": 120.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 48.0
+  },
+  {
+    "id": "V0359_MOVE_ICICLE_SPEAR",
+    "name": "Icicle Spear",
+    "type": "Ice",
+    "power": 55.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 27.5
+  },
+  {
+    "id": "V0360_MOVE_AEROBLAST_PLUS",
+    "name": "Aeroblast Plus",
+    "type": "Flying",
+    "power": 200.0,
+    "energyDelta": -100,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 57.14
+  },
+  {
+    "id": "V0361_MOVE_AEROBLAST_PLUS_PLUS",
+    "name": "Aeroblast Plus Plus",
+    "type": "Flying",
+    "power": 225.0,
+    "energyDelta": -100,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 64.29
+  },
+  {
+    "id": "V0362_MOVE_SACRED_FIRE_PLUS",
+    "name": "Sacred Fire Plus",
+    "type": "Fire",
+    "power": 135.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 54.0
+  },
+  {
+    "id": "V0363_MOVE_SACRED_FIRE_PLUS_PLUS",
+    "name": "Sacred Fire Plus Plus",
+    "type": "Fire",
+    "power": 155.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 62.0
+  },
+  {
+    "id": "V0364_MOVE_ACROBATICS",
+    "name": "Acrobatics",
+    "type": "Flying",
+    "power": 100.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 50.0
+  },
+  {
+    "id": "V0365_MOVE_LUSTER_PURGE",
+    "name": "Luster Purge",
+    "type": "Psychic",
+    "power": 100.0,
+    "energyDelta": -100,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 66.67
+  },
+  {
+    "id": "V0366_MOVE_MIST_BALL",
+    "name": "Mist Ball",
+    "type": "Psychic",
+    "power": 105.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 52.5
+  },
+  {
+    "id": "V0367_MOVE_BRUTAL_SWING",
+    "name": "Brutal Swing",
+    "type": "Dark",
+    "power": 65.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 32.5
+  },
+  {
+    "id": "V0368_MOVE_ROLLOUT_FAST",
+    "name": "Rollout",
+    "type": "Rock",
+    "power": 15.0,
+    "energyDelta": 19,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0369_MOVE_SEED_FLARE",
+    "name": "Seed Flare",
+    "type": "Grass",
+    "power": 115.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 46.0
+  },
+  {
+    "id": "V0370_MOVE_OBSTRUCT",
+    "name": "Obstruct",
+    "type": "Dark",
+    "power": 20.0,
+    "energyDelta": -33,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 13.33
+  },
+  {
+    "id": "V0371_MOVE_SHADOW_FORCE",
+    "name": "Shadow Force",
+    "type": "Ghost",
+    "power": 140.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 70.0
+  },
+  {
+    "id": "V0372_MOVE_METEOR_BEAM",
+    "name": "Meteor Beam",
+    "type": "Rock",
+    "power": 140.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 70.0
+  },
+  {
+    "id": "V0373_MOVE_WATER_SHURIKEN_FAST",
+    "name": "Water Shuriken",
+    "type": "Water",
+    "power": 9.0,
+    "energyDelta": 14,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 9.0
+  },
+  {
+    "id": "V0374_MOVE_FUSION_BOLT",
+    "name": "Fusion Bolt",
+    "type": "Electric",
+    "power": 140.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 70.0
+  },
+  {
+    "id": "V0375_MOVE_FUSION_FLARE",
+    "name": "Fusion Flare",
+    "type": "Fire",
+    "power": 140.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 70.0
+  },
+  {
+    "id": "V0376_MOVE_POLTERGEIST",
+    "name": "Poltergeist",
+    "type": "Ghost",
+    "power": 140.0,
+    "energyDelta": -100,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0377_MOVE_HIGH_HORSEPOWER",
+    "name": "High Horsepower",
+    "type": "Ground",
+    "power": 105.0,
+    "energyDelta": -100,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 70.0
+  },
+  {
+    "id": "V0378_MOVE_GLACIATE",
+    "name": "Glaciate",
+    "type": "Ice",
+    "power": 160.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 64.0
+  },
+  {
+    "id": "V0379_MOVE_BREAKING_SWIPE",
+    "name": "Breaking Swipe",
+    "type": "Dragon",
+    "power": 45.0,
+    "energyDelta": -33,
+    "duration": 1.0,
+    "category": "Charged",
+    "dps": 45.0
+  },
+  {
+    "id": "V0380_MOVE_BOOMBURST",
+    "name": "Boomburst",
+    "type": "Normal",
+    "power": 150.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 60.0
+  },
+  {
+    "id": "V0381_MOVE_DOUBLE_IRON_BASH",
+    "name": "Double Iron Bash",
+    "type": "Steel",
+    "power": 70.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 35.0
+  },
+  {
+    "id": "V0382_MOVE_MYSTICAL_FIRE",
+    "name": "Mystical Fire",
+    "type": "Fire",
+    "power": 60.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0383_MOVE_LIQUIDATION",
+    "name": "Liquidation",
+    "type": "Water",
+    "power": 70.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 23.33
+  },
+  {
+    "id": "V0384_MOVE_DRAGON_ASCENT",
+    "name": "Dragon Ascent",
+    "type": "Flying",
+    "power": 140.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0385_MOVE_LEAFAGE_FAST",
+    "name": "Leafage",
+    "type": "Grass",
+    "power": 6.0,
+    "energyDelta": 4,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 12.0
+  },
+  {
+    "id": "V0386_MOVE_MAGMA_STORM",
+    "name": "Magma Storm",
+    "type": "Fire",
+    "power": 75.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0387_MOVE_GEOMANCY_FAST",
+    "name": "Geomancy",
+    "type": "Fairy",
+    "power": 20.0,
+    "energyDelta": 14,
+    "duration": 1.5,
+    "category": "Fast",
+    "dps": 13.33
+  },
+  {
+    "id": "V0388_MOVE_SPACIAL_REND",
+    "name": "Spacial Rend",
+    "type": "Dragon",
+    "power": 160.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 64.0
+  },
+  {
+    "id": "V0389_MOVE_OBLIVION_WING",
+    "name": "Oblivion Wing",
+    "type": "Flying",
+    "power": 85.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 42.5
+  },
+  {
+    "id": "V0390_MOVE_NATURES_MADNESS",
+    "name": "Natures Madness",
+    "type": "Fairy",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 45.0
+  },
+  {
+    "id": "V0391_MOVE_TRIPLE_AXEL",
+    "name": "Triple Axel",
+    "type": "Ice",
+    "power": 60.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0392_MOVE_TRAILBLAZE",
+    "name": "Trailblaze",
+    "type": "Grass",
+    "power": 65.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 32.5
+  },
+  {
+    "id": "V0393_MOVE_SCORCHING_SANDS",
+    "name": "Scorching Sands",
+    "type": "Ground",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 30.0
+  },
+  {
+    "id": "V0394_MOVE_ROAR_OF_TIME",
+    "name": "Roar Of Time",
+    "type": "Dragon",
+    "power": 160.0,
+    "energyDelta": -100,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 80.0
+  },
+  {
+    "id": "V0395_MOVE_BLEAKWIND_STORM",
+    "name": "Bleakwind Storm",
+    "type": "Flying",
+    "power": 150.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 60.0
+  },
+  {
+    "id": "V0396_MOVE_SANDSEAR_STORM",
+    "name": "Sandsear Storm",
+    "type": "Ground",
+    "power": 150.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 60.0
+  },
+  {
+    "id": "V0397_MOVE_WILDBOLT_STORM",
+    "name": "Wildbolt Storm",
+    "type": "Electric",
+    "power": 150.0,
+    "energyDelta": -100,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 60.0
+  },
+  {
+    "id": "V0398_MOVE_SPIRIT_SHACKLE",
+    "name": "Spirit Shackle",
+    "type": "Ghost",
+    "power": 70.0,
+    "energyDelta": -33,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 28.0
+  },
+  {
+    "id": "V0399_MOVE_VOLT_TACKLE",
+    "name": "Volt Tackle",
+    "type": "Electric",
+    "power": 90.0,
+    "energyDelta": -33,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 25.71
+  },
+  {
+    "id": "V0400_MOVE_DARKEST_LARIAT",
+    "name": "Darkest Lariat",
+    "type": "Dark",
+    "power": 80.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 40.0
+  },
+  {
+    "id": "V0401_MOVE_PSYWAVE_FAST",
+    "name": "Psywave",
+    "type": "Psychic",
+    "power": 4.0,
+    "energyDelta": 7,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0402_MOVE_METAL_SOUND_FAST",
+    "name": "Metal Sound",
+    "type": "Steel",
+    "power": 4.0,
+    "energyDelta": 6,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0403_MOVE_SAND_ATTACK_FAST",
+    "name": "Sand Attack",
+    "type": "Ground",
+    "power": 4.0,
+    "energyDelta": 7,
+    "duration": 0.5,
+    "category": "Fast",
+    "dps": 8.0
+  },
+  {
+    "id": "V0404_MOVE_SUNSTEEL_STRIKE",
+    "name": "Sunsteel Strike",
+    "type": "Steel",
+    "power": 230.0,
+    "energyDelta": -100,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 76.67
+  },
+  {
+    "id": "V0405_MOVE_MOONGEIST_BEAM",
+    "name": "Moongeist Beam",
+    "type": "Ghost",
+    "power": 230.0,
+    "energyDelta": -100,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 76.67
+  },
+  {
+    "id": "V0406_MOVE_AURA_WHEEL_ELECTRIC",
+    "name": "",
+    "type": "Electric",
+    "power": 100.0,
+    "energyDelta": -45,
+    "duration": 2.7,
+    "category": "Charged",
+    "dps": 37.04
+  },
+  {
+    "id": "V0407_MOVE_AURA_WHEEL_DARK",
+    "name": "",
+    "type": "Dark",
+    "power": 100.0,
+    "energyDelta": -45,
+    "duration": 2.7,
+    "category": "Charged",
+    "dps": 37.04
+  },
+  {
+    "id": "V0408_MOVE_HIGH_JUMP_KICK",
+    "name": "High Jump Kick",
+    "type": "Fighting",
+    "power": 90.0,
+    "energyDelta": -100,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 60.0
+  },
+  {
+    "id": "V0462_MOVE_FORCE_PALM_FAST",
+    "name": "Force Palm",
+    "type": "Fighting",
+    "power": 10.0,
+    "energyDelta": 16,
+    "duration": 1.0,
+    "category": "Fast",
+    "dps": 10.0
+  },
+  {
+    "id": "V0463_MOVE_SPARKLING_ARIA",
+    "name": "Sparkling Aria",
+    "type": "Water",
+    "power": 85.0,
+    "energyDelta": -33,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 28.33
+  },
+  {
+    "id": "V0464_MOVE_RAGE_FIST",
+    "name": "Rage Fist",
+    "type": "Ghost",
+    "power": 100.0,
+    "energyDelta": -50,
+    "duration": 3.0,
+    "category": "Charged",
+    "dps": 33.33
+  },
+  {
+    "id": "V0465_MOVE_FLOWER_TRICK",
+    "name": "Flower Trick",
+    "type": "Grass",
+    "power": 75.0,
+    "energyDelta": -33,
+    "duration": 2.7,
+    "category": "Charged",
+    "dps": 27.78
+  },
+  {
+    "id": "V0466_MOVE_FREEZE_SHOCK",
+    "name": "Freeze Shock",
+    "type": "Ice",
+    "power": 160.0,
+    "energyDelta": -100,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 106.67
+  },
+  {
+    "id": "V0467_MOVE_ICE_BURN",
+    "name": "Ice Burn",
+    "type": "Ice",
+    "power": 90.0,
+    "energyDelta": -50,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 45.0
+  },
+  {
+    "id": "V0468_MOVE_TORCH_SONG",
+    "name": "Torch Song",
+    "type": "Fire",
+    "power": 100.0,
+    "energyDelta": -50,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 28.57
+  },
+  {
+    "id": "V0469_MOVE_BEHEMOTH_BLADE",
+    "name": "Behemoth Blade",
+    "type": "Steel",
+    "power": 200.0,
+    "energyDelta": -100,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 57.14
+  },
+  {
+    "id": "V0470_MOVE_BEHEMOTH_BASH",
+    "name": "Behemoth Bash",
+    "type": "Steel",
+    "power": 125.0,
+    "energyDelta": -50,
+    "duration": 1.5,
+    "category": "Charged",
+    "dps": 83.33
+  },
+  {
+    "id": "V0471_MOVE_UPPER_HAND",
+    "name": "Upper Hand",
+    "type": "Fighting",
+    "power": 50.0,
+    "energyDelta": -33,
+    "duration": 2.0,
+    "category": "Charged",
+    "dps": 25.0
+  },
+  {
+    "id": "V0472_MOVE_THUNDER_CAGE",
+    "name": "Thunder Cage",
+    "type": "Electric",
+    "power": 220,
+    "energyDelta": -1,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 62.86
+  },
+  {
+    "id": "V0485_MOVE_CRUSH_GRIP",
+    "name": "Crush Grip",
+    "type": "Normal",
+    "power": 1.0,
+    "energyDelta": -1,
+    "duration": 1.8,
+    "category": "Charged",
+    "dps": 0.56
+  },
+  {
+    "id": "V0486_MOVE_DRAGON_ENERGY",
+    "name": "Dragon Energy",
+    "type": "Dragon",
+    "power": 155,
+    "energyDelta": -1,
+    "duration": 3.5,
+    "category": "Charged",
+    "dps": 44.29
+  },
+  {
+    "id": "VN_BM_001",
+    "name": "Vn Bm 001",
+    "type": "Fire",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_002",
+    "name": "Vn Bm 002",
+    "type": "Bug",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_003",
+    "name": "Vn Bm 003",
+    "type": "Electric",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_004",
+    "name": "Vn Bm 004",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_005",
+    "name": "Vn Bm 005",
+    "type": "Fighting",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_006",
+    "name": "Vn Bm 006",
+    "type": "Ghost",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_007",
+    "name": "Vn Bm 007",
+    "type": "Ice",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_008",
+    "name": "Vn Bm 008",
+    "type": "Poison",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_009",
+    "name": "Vn Bm 009",
+    "type": "Water",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_010",
+    "name": "Vn Bm 010",
+    "type": "Flying",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_011",
+    "name": "Vn Bm 011",
+    "type": "Fairy",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_012",
+    "name": "Vn Bm 012",
+    "type": "Dragon",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_013",
+    "name": "Vn Bm 013",
+    "type": "Psychic",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_014",
+    "name": "Vn Bm 014",
+    "type": "Rock",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_015",
+    "name": "Vn Bm 015",
+    "type": "Ground",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_016",
+    "name": "Vn Bm 016",
+    "type": "Dark",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_017",
+    "name": "Vn Bm 017",
+    "type": "Grass",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_018",
+    "name": "Vn Bm 018",
+    "type": "Steel",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_019",
+    "name": "Vn Bm 019",
+    "type": "Fire",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_020",
+    "name": "Vn Bm 020",
+    "type": "Bug",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_021",
+    "name": "Vn Bm 021",
+    "type": "Electric",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_022",
+    "name": "Vn Bm 022",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_023",
+    "name": "Vn Bm 023",
+    "type": "Fighting",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_024",
+    "name": "Vn Bm 024",
+    "type": "Ghost",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_025",
+    "name": "Vn Bm 025",
+    "type": "Water",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_026",
+    "name": "Vn Bm 026",
+    "type": "Ice",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_027",
+    "name": "Vn Bm 027",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_028",
+    "name": "Vn Bm 028",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_029",
+    "name": "Vn Bm 029",
+    "type": "Poison",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_030",
+    "name": "Vn Bm 030",
+    "type": "Steel",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_031",
+    "name": "Vn Bm 031",
+    "type": "Flying",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_032",
+    "name": "Vn Bm 032",
+    "type": "Psychic",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_033",
+    "name": "Vn Bm 033",
+    "type": "Water",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_034",
+    "name": "Vn Bm 034",
+    "type": "Rock",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_035",
+    "name": "Vn Bm 035",
+    "type": "Grass",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_036",
+    "name": "Vn Bm 036",
+    "type": "Grass",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_037",
+    "name": "Vn Bm 037",
+    "type": "Ground",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_038",
+    "name": "Vn Bm 038",
+    "type": "Electric",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_039",
+    "name": "Vn Bm 039",
+    "type": "Fire",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_040",
+    "name": "Vn Bm 040",
+    "type": "Fairy",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_041",
+    "name": "Vn Bm 041",
+    "type": "Dark",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_042",
+    "name": "Vn Bm 042",
+    "type": "Fairy",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_043",
+    "name": "Vn Bm 043",
+    "type": "Steel",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_044",
+    "name": "Vn Bm 044",
+    "type": "Dragon",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_045",
+    "name": "Vn Bm 045",
+    "type": "Grass",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_046",
+    "name": "Vn Bm 046",
+    "type": "Water",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_047",
+    "name": "Vn Bm 047",
+    "type": "Grass",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_048",
+    "name": "Vn Bm 048",
+    "type": "Fire",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_049",
+    "name": "Vn Bm 049",
+    "type": "Water",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_050",
+    "name": "Vn Bm 050",
+    "type": "Dark",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_051",
+    "name": "Vn Bm 051",
+    "type": "Water",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_052",
+    "name": "Vn Bm 052",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_053",
+    "name": "Vn Bm 053",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_054",
+    "name": "Vn Bm 054",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_055",
+    "name": "Vn Bm 055",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_056",
+    "name": "Vn Bm 056",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_057",
+    "name": "Vn Bm 057",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_058",
+    "name": "Vn Bm 058",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_059",
+    "name": "Vn Bm 059",
+    "type": "Normal",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_060",
+    "name": "Vn Bm 060",
+    "type": "Steel",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  },
+  {
+    "id": "VN_BM_061",
+    "name": "Vn Bm 061",
+    "type": "Steel",
+    "power": 0,
+    "energyDelta": 0,
+    "duration": 2.5,
+    "category": "Charged",
+    "dps": 0.0
+  }
+]

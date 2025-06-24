@@ -1,0 +1,4791 @@
+{
+  "Nidoqueen": {
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "baseAttack": 180,
+    "baseDefense": 173,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Poison Jab",
+        "Bite"
+      ],
+      "charged": [
+        "Earthquake",
+        "Sludge Wave",
+        "Stone Edge",
+        "Earth Power",
+        "Poison Fang"
+      ]
+    }
+  },
+  "Clefable": {
+    "types": [
+      "Fairy"
+    ],
+    "baseAttack": 178,
+    "baseDefense": 162,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Charge Beam",
+        "Zen Headbutt",
+        "Charm",
+        "Fairy Wind"
+      ],
+      "charged": [
+        "Dazzling Gleam",
+        "Psychic",
+        "Moonblast",
+        "Meteor Mash",
+        "Swift",
+        "Draining Kiss"
+      ]
+    }
+  },
+  "Jigglypuff": {
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "baseAttack": 80,
+    "baseDefense": 41,
+    "baseStamina": 251,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Pound",
+        "Feint Attack"
+      ],
+      "charged": [
+        "Disarming Voice",
+        "Gyro Ball",
+        "Dazzling Gleam",
+        "Swift"
+      ]
+    }
+  },
+  "Wigglytuff": {
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "baseAttack": 156,
+    "baseDefense": 90,
+    "baseStamina": 295,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Pound",
+        "Feint Attack",
+        "Charm"
+      ],
+      "charged": [
+        "Dazzling Gleam",
+        "Hyper Beam",
+        "Play Rough",
+        "Ice Beam",
+        "Disarming Voice",
+        "Icy Wind",
+        "Swift"
+      ]
+    }
+  },
+  "Arcanine": {
+    "types": [
+      "Fire"
+    ],
+    "baseAttack": 227,
+    "baseDefense": 166,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Fire Fang",
+        "Snarl",
+        "Thunder Fang"
+      ],
+      "charged": [
+        "Fire Blast",
+        "Wild Charge",
+        "Crunch",
+        "Flamethrower",
+        "Psychic Fangs",
+        "Scorching Sands"
+      ]
+    }
+  },
+  "Poliwrath": {
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "baseAttack": 182,
+    "baseDefense": 184,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bubble",
+        "Rock Smash",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Hydro Pump",
+        "Dynamic Punch",
+        "Ice Punch",
+        "Power Up Punch",
+        "Scald",
+        "Icy Wind"
+      ]
+    }
+  },
+  "Machamp": {
+    "types": [
+      "Fighting"
+    ],
+    "baseAttack": 234,
+    "baseDefense": 159,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bullet Punch",
+        "Counter"
+      ],
+      "charged": [
+        "Heavy Slam",
+        "Dynamic Punch",
+        "Close Combat",
+        "Rock Slide",
+        "Cross Chop"
+      ]
+    }
+  },
+  "Slowpoke": {
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "baseAttack": 109,
+    "baseDefense": 98,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Water Gun",
+        "Confusion"
+      ],
+      "charged": [
+        "Water Pulse",
+        "Psyshock",
+        "Psychic"
+      ]
+    }
+  },
+  "Slowbro": {
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "baseAttack": 177,
+    "baseDefense": 180,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Water Gun",
+        "Confusion"
+      ],
+      "charged": [
+        "Water Pulse",
+        "Psychic",
+        "Ice Beam",
+        "Scald"
+      ]
+    }
+  },
+  "Dewgong": {
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "baseAttack": 139,
+    "baseDefense": 177,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Frost Breath",
+        "Iron Tail"
+      ],
+      "charged": [
+        "Aurora Beam",
+        "Water Pulse",
+        "Blizzard",
+        "Drill Run",
+        "Liquidation"
+      ]
+    }
+  },
+  "Muk": {
+    "types": [
+      "Poison"
+    ],
+    "baseAttack": 190,
+    "baseDefense": 172,
+    "baseStamina": 233,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Infestation",
+        "Poison Jab"
+      ],
+      "charged": [
+        "Dark Pulse",
+        "Gunk Shot",
+        "Sludge Wave",
+        "Thunder Punch",
+        "Acid Spray"
+      ]
+    }
+  },
+  "Exeggutor": {
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "baseAttack": 233,
+    "baseDefense": 149,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bullet Seed",
+        "Extrasensory",
+        "Confusion"
+      ],
+      "charged": [
+        "Seed Bomb",
+        "Psychic",
+        "Solar Beam"
+      ]
+    }
+  },
+  "Lickitung": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 108,
+    "baseDefense": 137,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Lick",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Hyper Beam",
+        "Stomp",
+        "Power Whip"
+      ]
+    }
+  },
+  "Rhydon": {
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "baseAttack": 222,
+    "baseDefense": 171,
+    "baseStamina": 233,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Slap",
+        "Rock Smash"
+      ],
+      "charged": [
+        "Surf",
+        "Earthquake",
+        "Stone Edge",
+        "Breaking Swipe"
+      ]
+    }
+  },
+  "Chansey": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 60,
+    "baseDefense": 128,
+    "baseStamina": 487,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Pound",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Psychic",
+        "Hyper Beam",
+        "Dazzling Gleam"
+      ]
+    }
+  },
+  "Kangaskhan": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 181,
+    "baseDefense": 165,
+    "baseStamina": 233,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Slap",
+        "Low Kick"
+      ],
+      "charged": [
+        "Crunch",
+        "Earthquake",
+        "Outrage",
+        "Power Up Punch"
+      ]
+    }
+  },
+  "Gyarados": {
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "baseAttack": 237,
+    "baseDefense": 186,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite",
+        "Waterfall",
+        "Dragon Breath"
+      ],
+      "charged": [
+        "Hydro Pump",
+        "Crunch",
+        "Outrage",
+        "Twister"
+      ]
+    }
+  },
+  "Lapras": {
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "baseAttack": 165,
+    "baseDefense": 174,
+    "baseStamina": 277,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Frost Breath",
+        "Water Gun",
+        "Psywave"
+      ],
+      "charged": [
+        "Hydro Pump",
+        "Surf",
+        "Blizzard",
+        "Skull Bash",
+        "Sparkling Aria"
+      ]
+    }
+  },
+  "Vaporeon": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 205,
+    "baseDefense": 161,
+    "baseStamina": 277,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Water Gun"
+      ],
+      "charged": [
+        "Water Pulse",
+        "Hydro Pump",
+        "Aqua Tail",
+        "Liquidation"
+      ]
+    }
+  },
+  "Snorlax": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 190,
+    "baseDefense": 169,
+    "baseStamina": 330,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Zen Headbutt",
+        "Lick"
+      ],
+      "charged": [
+        "Heavy Slam",
+        "Hyper Beam",
+        "Earthquake",
+        "Outrage",
+        "Skull Bash",
+        "Body Slam",
+        "Super Power"
+      ]
+    }
+  },
+  "Articuno": {
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "baseAttack": 192,
+    "baseDefense": 236,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Frost Breath",
+        "Ice Shard"
+      ],
+      "charged": [
+        "Ice Beam",
+        "Icy Wind",
+        "Blizzard",
+        "Ancient Power",
+        "Triple Axel"
+      ]
+    }
+  },
+  "Zapdos": {
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "baseAttack": 253,
+    "baseDefense": 185,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Charge Beam"
+      ],
+      "charged": [
+        "Zap Cannon",
+        "Thunderbolt",
+        "Thunder",
+        "Ancient Power",
+        "Drill Peck"
+      ]
+    }
+  },
+  "Moltres": {
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "baseAttack": 251,
+    "baseDefense": 181,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Fire Spin",
+        "Wing Attack"
+      ],
+      "charged": [
+        "Fire Blast",
+        "Heat Wave",
+        "Overheat",
+        "Ancient Power"
+      ]
+    }
+  },
+  "Dragonite": {
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "baseAttack": 263,
+    "baseDefense": 198,
+    "baseStamina": 209,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Tail",
+        "Steel Wing",
+        "Dragon Breath"
+      ],
+      "charged": [
+        "Hurricane",
+        "Hyper Beam",
+        "Outrage",
+        "Dragon Claw",
+        "Super Power"
+      ]
+    }
+  },
+  "Mewtwo": {
+    "types": [
+      "Psychic"
+    ],
+    "baseAttack": 300,
+    "baseDefense": 182,
+    "baseStamina": 214,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Psycho Cut",
+        "Confusion"
+      ],
+      "charged": [
+        "Psychic",
+        "Thunderbolt",
+        "Ice Beam",
+        "Focus Blast",
+        "Flamethrower"
+      ]
+    }
+  },
+  "Mew": {
+    "types": [
+      "Psychic"
+    ],
+    "baseAttack": 210,
+    "baseDefense": 210,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Pound",
+        "Steel Wing",
+        "Charge Beam",
+        "Shadow Claw",
+        "Volt Switch",
+        "Struggle Bug",
+        "Frost Breath",
+        "Dragon Tail",
+        "Infestation",
+        "Poison Jab",
+        "Rock Smash",
+        "Snarl",
+        "Cut",
+        "Waterfall"
+      ],
+      "charged": [
+        "Psychic",
+        "Ancient Power",
+        "Dragon Claw",
+        "Psyshock",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Solar Beam",
+        "Thunderbolt",
+        "Thunder",
+        "Flame Charge",
+        "Low Sweep",
+        "Overheat",
+        "Focus Blast",
+        "Energy Ball",
+        "Stone Edge",
+        "Gyro Ball",
+        "Bulldoze",
+        "Rock Slide",
+        "Grass Knot",
+        "Flash Cannon",
+        "Wild Charge",
+        "Dark Pulse",
+        "Dazzling Gleam",
+        "Surf"
+      ]
+    }
+  },
+  "Noctowl": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "baseAttack": 145,
+    "baseDefense": 156,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Wing Attack",
+        "Extrasensory"
+      ],
+      "charged": [
+        "Psychic",
+        "Sky Attack",
+        "Night Shade",
+        "Shadow Ball"
+      ]
+    }
+  },
+  "Lanturn": {
+    "types": [
+      "Water",
+      "Electric"
+    ],
+    "baseAttack": 146,
+    "baseDefense": 137,
+    "baseStamina": 268,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Water Gun",
+        "Charge Beam",
+        "Spark"
+      ],
+      "charged": [
+        "Hydro Pump",
+        "Thunderbolt",
+        "Thunder",
+        "Surf"
+      ]
+    }
+  },
+  "Igglybuff": {
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "baseAttack": 69,
+    "baseDefense": 32,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Pound",
+        "Feint Attack"
+      ],
+      "charged": [
+        "Wild Charge",
+        "Shadow Ball",
+        "Psychic",
+        "Swift"
+      ]
+    }
+  },
+  "Ampharos": {
+    "types": [
+      "Electric"
+    ],
+    "baseAttack": 211,
+    "baseDefense": 169,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Charge Beam",
+        "Volt Switch"
+      ],
+      "charged": [
+        "Zap Cannon",
+        "Focus Blast",
+        "Thunder",
+        "Power Gem",
+        "Thunder Punch",
+        "Brutal Swing",
+        "Trailblaze"
+      ]
+    }
+  },
+  "Azumarill": {
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "baseAttack": 112,
+    "baseDefense": 152,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Rock Smash",
+        "Bubble"
+      ],
+      "charged": [
+        "Play Rough",
+        "Hydro Pump",
+        "Ice Beam"
+      ]
+    }
+  },
+  "Politoed": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 174,
+    "baseDefense": 179,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Shot",
+        "Bubble"
+      ],
+      "charged": [
+        "Hydro Pump",
+        "Blizzard",
+        "Surf",
+        "Weather Ball Water",
+        "Scald"
+      ]
+    }
+  },
+  "Quagsire": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "baseAttack": 152,
+    "baseDefense": 143,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Water Gun",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Sludge Bomb",
+        "Earthquake",
+        "Stone Edge",
+        "Acid Spray",
+        "Mud Bomb"
+      ]
+    }
+  },
+  "Umbreon": {
+    "types": [
+      "Dark"
+    ],
+    "baseAttack": 126,
+    "baseDefense": 240,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Feint Attack",
+        "Snarl"
+      ],
+      "charged": [
+        "Dark Pulse",
+        "Foul Play"
+      ]
+    }
+  },
+  "Slowking": {
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "baseAttack": 177,
+    "baseDefense": 180,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Water Gun",
+        "Confusion"
+      ],
+      "charged": [
+        "Blizzard",
+        "Psychic",
+        "Fire Blast",
+        "Scald"
+      ]
+    }
+  },
+  "Wobbuffet": {
+    "types": [
+      "Psychic"
+    ],
+    "baseAttack": 60,
+    "baseDefense": 106,
+    "baseStamina": 382,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Counter",
+        "Splash",
+        "Charm"
+      ],
+      "charged": [
+        "Mirror Coat"
+      ]
+    }
+  },
+  "Dunsparce": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 131,
+    "baseDefense": 128,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite",
+        "Astonish",
+        "Rollout"
+      ],
+      "charged": [
+        "Dig",
+        "Rock Slide",
+        "Drill Run"
+      ]
+    }
+  },
+  "Granbull": {
+    "types": [
+      "Fairy"
+    ],
+    "baseAttack": 212,
+    "baseDefense": 131,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite",
+        "Snarl",
+        "Charm"
+      ],
+      "charged": [
+        "Crunch",
+        "Play Rough",
+        "Close Combat"
+      ]
+    }
+  },
+  "Ursaring": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 236,
+    "baseDefense": 144,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Metal Claw",
+        "Counter",
+        "Shadow Claw"
+      ],
+      "charged": [
+        "Close Combat",
+        "Hyper Beam",
+        "Play Rough",
+        "Trailblaze",
+        "Swift"
+      ]
+    }
+  },
+  "Piloswine": {
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "baseAttack": 181,
+    "baseDefense": 138,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Ice Shard",
+        "Powder Snow"
+      ],
+      "charged": [
+        "Avalanche",
+        "Bulldoze",
+        "Stone Edge",
+        "High Horsepower",
+        "Icicle Spear"
+      ]
+    }
+  },
+  "Phanpy": {
+    "types": [
+      "Ground"
+    ],
+    "baseAttack": 107,
+    "baseDefense": 98,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Rock Smash"
+      ],
+      "charged": [
+        "Bulldoze",
+        "Rock Slide",
+        "Body Slam",
+        "Trailblaze"
+      ]
+    }
+  },
+  "Donphan": {
+    "types": [
+      "Ground"
+    ],
+    "baseAttack": 214,
+    "baseDefense": 185,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Counter",
+        "Mud Slap",
+        "Charm"
+      ],
+      "charged": [
+        "Earthquake",
+        "Heavy Slam",
+        "Play Rough",
+        "Body Slam",
+        "Trailblaze"
+      ]
+    }
+  },
+  "Miltank": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 157,
+    "baseDefense": 193,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Zen Headbutt",
+        "Rollout"
+      ],
+      "charged": [
+        "Stomp",
+        "Body Slam",
+        "Gyro Ball",
+        "Thunderbolt",
+        "Ice Beam"
+      ]
+    }
+  },
+  "Blissey": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 129,
+    "baseDefense": 169,
+    "baseStamina": 496,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Pound",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Psychic",
+        "Hyper Beam",
+        "Dazzling Gleam"
+      ]
+    }
+  },
+  "Raikou": {
+    "types": [
+      "Electric"
+    ],
+    "baseAttack": 241,
+    "baseDefense": 195,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Thunder Shock",
+        "Volt Switch"
+      ],
+      "charged": [
+        "Thunder",
+        "Thunderbolt",
+        "Wild Charge",
+        "Shadow Ball"
+      ]
+    }
+  },
+  "Entei": {
+    "types": [
+      "Fire"
+    ],
+    "baseAttack": 235,
+    "baseDefense": 171,
+    "baseStamina": 251,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Fire Spin",
+        "Fire Fang"
+      ],
+      "charged": [
+        "Flamethrower",
+        "Fire Blast",
+        "Overheat",
+        "Iron Head",
+        "Flame Charge",
+        "Scorching Sands"
+      ]
+    }
+  },
+  "Suicune": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 180,
+    "baseDefense": 235,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Extrasensory",
+        "Snarl",
+        "Ice Fang"
+      ],
+      "charged": [
+        "Hydro Pump",
+        "Bubble Beam",
+        "Water Pulse",
+        "Ice Beam",
+        "Scald"
+      ]
+    }
+  },
+  "Tyranitar": {
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "baseAttack": 251,
+    "baseDefense": 207,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite",
+        "Iron Tail"
+      ],
+      "charged": [
+        "Fire Blast",
+        "Crunch",
+        "Stone Edge",
+        "Brutal Swing"
+      ]
+    }
+  },
+  "Lugia": {
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "baseAttack": 193,
+    "baseDefense": 310,
+    "baseStamina": 235,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Extrasensory",
+        "Dragon Tail"
+      ],
+      "charged": [
+        "Sky Attack",
+        "Hydro Pump",
+        "Futuresight"
+      ]
+    }
+  },
+  "Ho Oh": {
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "baseAttack": 239,
+    "baseDefense": 244,
+    "baseStamina": 214,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Extrasensory",
+        "Steel Wing",
+        "Hidden Power",
+        "Incinerate"
+      ],
+      "charged": [
+        "Brave Bird",
+        "Fire Blast",
+        "Solar Beam"
+      ]
+    }
+  },
+  "Celebi": {
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "baseAttack": 210,
+    "baseDefense": 210,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Confusion",
+        "Charge Beam"
+      ],
+      "charged": [
+        "Hyper Beam",
+        "Psychic",
+        "Dazzling Gleam",
+        "Seed Bomb",
+        "Leaf Storm"
+      ]
+    }
+  },
+  "Swampert": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "baseAttack": 208,
+    "baseDefense": 175,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Shot",
+        "Water Gun"
+      ],
+      "charged": [
+        "Earthquake",
+        "Sludge Wave",
+        "Surf",
+        "Muddy Water",
+        "Sludge"
+      ]
+    }
+  },
+  "Shiftry": {
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "baseAttack": 200,
+    "baseDefense": 121,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Razor Leaf",
+        "Feint Attack",
+        "Snarl"
+      ],
+      "charged": [
+        "Leaf Blade",
+        "Hurricane",
+        "Foul Play",
+        "Leaf Tornado"
+      ]
+    }
+  },
+  "Slaking": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 290,
+    "baseDefense": 166,
+    "baseStamina": 284,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Yawn"
+      ],
+      "charged": [
+        "Hyper Beam",
+        "Play Rough",
+        "Earthquake"
+      ]
+    }
+  },
+  "Exploud": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 179,
+    "baseDefense": 137,
+    "baseStamina": 232,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite",
+        "Astonish"
+      ],
+      "charged": [
+        "Crunch",
+        "Disarming Voice",
+        "Fire Blast",
+        "Boomburst"
+      ]
+    }
+  },
+  "Hariyama": {
+    "types": [
+      "Fighting"
+    ],
+    "baseAttack": 209,
+    "baseDefense": 114,
+    "baseStamina": 302,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Counter",
+        "Bullet Punch",
+        "Force Palm"
+      ],
+      "charged": [
+        "Heavy Slam",
+        "Close Combat",
+        "Dynamic Punch",
+        "Super Power",
+        "Upper Hand"
+      ]
+    }
+  },
+  "Swalot": {
+    "types": [
+      "Poison"
+    ],
+    "baseAttack": 140,
+    "baseDefense": 159,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Rock Smash",
+        "Infestation",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Gunk Shot",
+        "Sludge Bomb",
+        "Ice Beam",
+        "Acid Spray",
+        "Sludge"
+      ]
+    }
+  },
+  "Wailmer": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 136,
+    "baseDefense": 68,
+    "baseStamina": 277,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash",
+        "Water Gun",
+        "Rollout"
+      ],
+      "charged": [
+        "Heavy Slam",
+        "Water Pulse",
+        "Body Slam",
+        "Scald"
+      ]
+    }
+  },
+  "Wailord": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 175,
+    "baseDefense": 87,
+    "baseStamina": 347,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Zen Headbutt",
+        "Water Gun",
+        "Rollout"
+      ],
+      "charged": [
+        "Surf",
+        "Blizzard",
+        "Hyper Beam",
+        "Scald"
+      ]
+    }
+  },
+  "Lunatone": {
+    "types": [
+      "Rock",
+      "Psychic"
+    ],
+    "baseAttack": 178,
+    "baseDefense": 153,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Rock Throw",
+        "Confusion",
+        "Psywave"
+      ],
+      "charged": [
+        "Psychic",
+        "Rock Slide",
+        "Moonblast"
+      ]
+    }
+  },
+  "Solrock": {
+    "types": [
+      "Rock",
+      "Psychic"
+    ],
+    "baseAttack": 178,
+    "baseDefense": 153,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Rock Throw",
+        "Confusion",
+        "Psywave"
+      ],
+      "charged": [
+        "Psychic",
+        "Rock Slide",
+        "Solar Beam"
+      ]
+    }
+  },
+  "Whiscash": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "baseAttack": 151,
+    "baseDefense": 141,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Water Gun",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Water Pulse",
+        "Blizzard",
+        "Mud Bomb",
+        "Scald"
+      ]
+    }
+  },
+  "Cradily": {
+    "types": [
+      "Rock",
+      "Grass"
+    ],
+    "baseAttack": 152,
+    "baseDefense": 194,
+    "baseStamina": 200,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Acid",
+        "Infestation",
+        "Bullet Seed"
+      ],
+      "charged": [
+        "Grass Knot",
+        "Bulldoze",
+        "Stone Edge",
+        "Rock Slide",
+        "Rock Tomb"
+      ]
+    }
+  },
+  "Milotic": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 192,
+    "baseDefense": 219,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Waterfall",
+        "Dragon Tail"
+      ],
+      "charged": [
+        "Surf",
+        "Blizzard",
+        "Hyper Beam"
+      ]
+    }
+  },
+  "Tropius": {
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "baseAttack": 136,
+    "baseDefense": 163,
+    "baseStamina": 223,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Air Slash",
+        "Razor Leaf"
+      ],
+      "charged": [
+        "Stomp",
+        "Aerial Ace",
+        "Leaf Blade",
+        "Brutal Swing"
+      ]
+    }
+  },
+  "Wynaut": {
+    "types": [
+      "Psychic"
+    ],
+    "baseAttack": 41,
+    "baseDefense": 86,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash",
+        "Counter"
+      ],
+      "charged": [
+        "Mirror Coat"
+      ]
+    }
+  },
+  "Sealeo": {
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "baseAttack": 137,
+    "baseDefense": 132,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Water Gun",
+        "Powder Snow"
+      ],
+      "charged": [
+        "Aurora Beam",
+        "Body Slam",
+        "Water Pulse"
+      ]
+    }
+  },
+  "Walrein": {
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "baseAttack": 182,
+    "baseDefense": 176,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Waterfall",
+        "Frost Breath"
+      ],
+      "charged": [
+        "Blizzard",
+        "Earthquake",
+        "Water Pulse"
+      ]
+    }
+  },
+  "Relicanth": {
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "baseAttack": 162,
+    "baseDefense": 203,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Water Gun",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Ancient Power",
+        "Aqua Tail",
+        "Hydro Pump"
+      ]
+    }
+  },
+  "Salamence": {
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "baseAttack": 277,
+    "baseDefense": 168,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Tail",
+        "Fire Fang",
+        "Bite"
+      ],
+      "charged": [
+        "Fire Blast",
+        "Hydro Pump",
+        "Draco Meteor",
+        "Fly"
+      ]
+    }
+  },
+  "Kyogre": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 270,
+    "baseDefense": 228,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Waterfall"
+      ],
+      "charged": [
+        "Hydro Pump",
+        "Blizzard",
+        "Thunder",
+        "Surf"
+      ]
+    }
+  },
+  "Groudon": {
+    "types": [
+      "Ground"
+    ],
+    "baseAttack": 270,
+    "baseDefense": 228,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Shot",
+        "Dragon Tail"
+      ],
+      "charged": [
+        "Earthquake",
+        "Fire Blast",
+        "Solar Beam"
+      ]
+    }
+  },
+  "Rayquaza": {
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "baseAttack": 284,
+    "baseDefense": 170,
+    "baseStamina": 213,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Air Slash",
+        "Dragon Tail"
+      ],
+      "charged": [
+        "Outrage",
+        "Aerial Ace",
+        "Ancient Power"
+      ]
+    }
+  },
+  "Jirachi": {
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "baseAttack": 210,
+    "baseDefense": 210,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Confusion",
+        "Charge Beam"
+      ],
+      "charged": [
+        "Dazzling Gleam",
+        "Psychic",
+        "Doom Desire"
+      ]
+    }
+  },
+  "Torterra": {
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "baseAttack": 202,
+    "baseDefense": 188,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite",
+        "Razor Leaf"
+      ],
+      "charged": [
+        "Stone Edge",
+        "Solar Beam",
+        "Earthquake",
+        "Sand Tomb"
+      ]
+    }
+  },
+  "Rampardos": {
+    "types": [
+      "Rock"
+    ],
+    "baseAttack": 295,
+    "baseDefense": 109,
+    "baseStamina": 219,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Zen Headbutt",
+        "Smack Down"
+      ],
+      "charged": [
+        "Rock Slide",
+        "Outrage",
+        "Flamethrower"
+      ]
+    }
+  },
+  "Gastrodon": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "baseAttack": 169,
+    "baseDefense": 143,
+    "baseStamina": 244,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Slap",
+        "Hidden Power"
+      ],
+      "charged": [
+        "Water Pulse",
+        "Earth Power",
+        "Body Slam",
+        "Earthquake"
+      ]
+    }
+  },
+  "Drifloon": {
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "baseAttack": 117,
+    "baseDefense": 80,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Hex",
+        "Astonish"
+      ],
+      "charged": [
+        "Ominous Wind",
+        "Icy Wind",
+        "Shadow Ball"
+      ]
+    }
+  },
+  "Drifblim": {
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "baseAttack": 180,
+    "baseDefense": 102,
+    "baseStamina": 312,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Hex",
+        "Astonish"
+      ],
+      "charged": [
+        "Ominous Wind",
+        "Icy Wind",
+        "Shadow Ball",
+        "Mystical Fire"
+      ]
+    }
+  },
+  "Honchkrow": {
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "baseAttack": 243,
+    "baseDefense": 103,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Peck",
+        "Snarl"
+      ],
+      "charged": [
+        "Brave Bird",
+        "Psychic",
+        "Dark Pulse",
+        "Sky Attack"
+      ]
+    }
+  },
+  "Skuntank": {
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "baseAttack": 184,
+    "baseDefense": 132,
+    "baseStamina": 230,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Poison Jab",
+        "Bite"
+      ],
+      "charged": [
+        "Crunch",
+        "Flamethrower",
+        "Sludge Bomb",
+        "Trailblaze"
+      ]
+    }
+  },
+  "Happiny": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 25,
+    "baseDefense": 77,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Pound",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Psychic"
+      ]
+    }
+  },
+  "Garchomp": {
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "baseAttack": 261,
+    "baseDefense": 193,
+    "baseStamina": 239,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Tail",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Outrage",
+        "Earthquake",
+        "Fire Blast",
+        "Sand Tomb"
+      ]
+    }
+  },
+  "Munchlax": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 137,
+    "baseDefense": 117,
+    "baseStamina": 286,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Lick"
+      ],
+      "charged": [
+        "Gunk Shot",
+        "Body Slam",
+        "Bulldoze"
+      ]
+    }
+  },
+  "Hippowdon": {
+    "types": [
+      "Ground"
+    ],
+    "baseAttack": 201,
+    "baseDefense": 191,
+    "baseStamina": 239,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Fire Fang",
+        "Bite",
+        "Thunder Fang",
+        "Ice Fang",
+        "Sand Attack"
+      ],
+      "charged": [
+        "Earthquake",
+        "Stone Edge",
+        "Body Slam",
+        "Earth Power",
+        "Weather Ball Rock",
+        "Scorching Sands"
+      ]
+    }
+  },
+  "Abomasnow": {
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "baseAttack": 178,
+    "baseDefense": 158,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Powder Snow",
+        "Razor Leaf",
+        "Leafage"
+      ],
+      "charged": [
+        "Blizzard",
+        "Energy Ball",
+        "Outrage",
+        "Weather Ball Ice",
+        "Icy Wind"
+      ]
+    }
+  },
+  "Lickilicky": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 161,
+    "baseDefense": 181,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Lick",
+        "Zen Headbutt",
+        "Rollout"
+      ],
+      "charged": [
+        "Hyper Beam",
+        "Earthquake",
+        "Solar Beam",
+        "Shadow Ball"
+      ]
+    }
+  },
+  "Rhyperior": {
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "baseAttack": 241,
+    "baseDefense": 190,
+    "baseStamina": 251,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Slap",
+        "Smack Down"
+      ],
+      "charged": [
+        "Surf",
+        "Earthquake",
+        "Stone Edge",
+        "Skull Bash",
+        "Super Power",
+        "Breaking Swipe"
+      ]
+    }
+  },
+  "Tangrowth": {
+    "types": [
+      "Grass"
+    ],
+    "baseAttack": 207,
+    "baseDefense": 184,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Vine Whip",
+        "Infestation"
+      ],
+      "charged": [
+        "Ancient Power",
+        "Sludge Bomb",
+        "Solar Beam",
+        "Power Whip",
+        "Rock Slide"
+      ]
+    }
+  },
+  "Yanmega": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "baseAttack": 231,
+    "baseDefense": 156,
+    "baseStamina": 200,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bug Bite",
+        "Wing Attack"
+      ],
+      "charged": [
+        "Ancient Power",
+        "Aerial Ace",
+        "Bug Buzz"
+      ]
+    }
+  },
+  "Mamoswine": {
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "baseAttack": 247,
+    "baseDefense": 146,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Slap",
+        "Powder Snow"
+      ],
+      "charged": [
+        "Avalanche",
+        "Bulldoze",
+        "Stone Edge",
+        "High Horsepower",
+        "Icicle Spear"
+      ]
+    }
+  },
+  "Dialga": {
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "baseAttack": 270,
+    "baseDefense": 225,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Breath",
+        "Metal Claw"
+      ],
+      "charged": [
+        "Draco Meteor",
+        "Iron Head",
+        "Thunder"
+      ]
+    }
+  },
+  "Heatran": {
+    "types": [
+      "Fire",
+      "Steel"
+    ],
+    "baseAttack": 251,
+    "baseDefense": 213,
+    "baseStamina": 209,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Fire Spin",
+        "Bug Bite"
+      ],
+      "charged": [
+        "Fire Blast",
+        "Iron Head",
+        "Stone Edge",
+        "Flamethrower",
+        "Earth Power"
+      ]
+    }
+  },
+  "Regigigas": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 287,
+    "baseDefense": 210,
+    "baseStamina": 221,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Zen Headbutt",
+        "Hidden Power"
+      ],
+      "charged": [
+        "Giga Impact",
+        "Focus Blast",
+        "Thunder"
+      ]
+    }
+  },
+  "Giratina": {
+    "types": [
+      "Ghost",
+      "Dragon"
+    ],
+    "baseAttack": 225,
+    "baseDefense": 187,
+    "baseStamina": 284,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Tail",
+        "Shadow Claw"
+      ],
+      "charged": [
+        "Dragon Pulse",
+        "Ominous Wind",
+        "Shadow Ball"
+      ]
+    }
+  },
+  "Cresselia": {
+    "types": [
+      "Psychic"
+    ],
+    "baseAttack": 152,
+    "baseDefense": 258,
+    "baseStamina": 260,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Psycho Cut",
+        "Confusion"
+      ],
+      "charged": [
+        "Aurora Beam",
+        "Moonblast",
+        "Futuresight"
+      ]
+    }
+  },
+  "Manaphy": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 210,
+    "baseDefense": 210,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Waterfall",
+        "Bubble"
+      ],
+      "charged": [
+        "Bubble Beam",
+        "Psychic",
+        "Surf"
+      ]
+    }
+  },
+  "Shaymin": {
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "baseAttack": 261,
+    "baseDefense": 166,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Hidden Power",
+        "Zen Headbutt",
+        "Magical Leaf"
+      ],
+      "charged": [
+        "Energy Ball",
+        "Grass Knot",
+        "Solar Beam",
+        "Seed Flare"
+      ]
+    }
+  },
+  "Arceus": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 238,
+    "baseDefense": 238,
+    "baseStamina": 237,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Iron Tail",
+        "Shadow Claw"
+      ],
+      "charged": [
+        "Futuresight",
+        "Hyper Beam",
+        "Outrage"
+      ]
+    }
+  },
+  "Victini": {
+    "types": [
+      "Psychic",
+      "Fire"
+    ],
+    "baseAttack": 210,
+    "baseDefense": 210,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Confusion",
+        "Quick Attack"
+      ],
+      "charged": [
+        "Overheat",
+        "Focus Blast",
+        "Psychic",
+        "V Create"
+      ]
+    }
+  },
+  "Pignite": {
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "baseAttack": 173,
+    "baseDefense": 106,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Ember"
+      ],
+      "charged": [
+        "Flame Charge",
+        "Flamethrower",
+        "Rock Tomb"
+      ]
+    }
+  },
+  "Emboar": {
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "baseAttack": 235,
+    "baseDefense": 127,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Low Kick",
+        "Ember"
+      ],
+      "charged": [
+        "Heat Wave",
+        "Rock Slide",
+        "Focus Blast",
+        "Flame Charge"
+      ]
+    }
+  },
+  "Samurott": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 212,
+    "baseDefense": 157,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Fury Cutter",
+        "Waterfall"
+      ],
+      "charged": [
+        "Hydro Pump",
+        "Blizzard",
+        "Megahorn",
+        "Razor Shell",
+        "Liquidation"
+      ]
+    }
+  },
+  "Musharna": {
+    "types": [
+      "Psychic"
+    ],
+    "baseAttack": 183,
+    "baseDefense": 166,
+    "baseStamina": 253,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Zen Headbutt",
+        "Charge Beam"
+      ],
+      "charged": [
+        "Futuresight",
+        "Dazzling Gleam",
+        "Psyshock"
+      ]
+    }
+  },
+  "Excadrill": {
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "baseAttack": 255,
+    "baseDefense": 129,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Metal Claw",
+        "Mud Slap",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Rock Slide",
+        "Earthquake",
+        "Drill Run",
+        "Iron Head",
+        "Scorching Sands"
+      ]
+    }
+  },
+  "Audino": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 114,
+    "baseDefense": 163,
+    "baseStamina": 230,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Pound",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Disarming Voice",
+        "Dazzling Gleam",
+        "Hyper Beam",
+        "Body Slam"
+      ]
+    }
+  },
+  "Conkeldurr": {
+    "types": [
+      "Fighting"
+    ],
+    "baseAttack": 243,
+    "baseDefense": 158,
+    "baseStamina": 233,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Counter",
+        "Poison Jab"
+      ],
+      "charged": [
+        "Dynamic Punch",
+        "Focus Blast",
+        "Stone Edge"
+      ]
+    }
+  },
+  "Seismitoad": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "baseAttack": 188,
+    "baseDefense": 150,
+    "baseStamina": 233,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Shot",
+        "Bubble"
+      ],
+      "charged": [
+        "Muddy Water",
+        "Earth Power",
+        "Sludge Bomb"
+      ]
+    }
+  },
+  "Throh": {
+    "types": [
+      "Fighting"
+    ],
+    "baseAttack": 172,
+    "baseDefense": 160,
+    "baseStamina": 260,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Low Kick",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Focus Blast",
+        "Low Sweep",
+        "Body Slam",
+        "Brick Break"
+      ]
+    }
+  },
+  "Krookodile": {
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "baseAttack": 229,
+    "baseDefense": 158,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Snarl",
+        "Mud Slap"
+      ],
+      "charged": [
+        "Earthquake",
+        "Crunch",
+        "Outrage",
+        "Brick Break"
+      ]
+    }
+  },
+  "Darmanitan": {
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "baseAttack": 243,
+    "baseDefense": 202,
+    "baseStamina": 233,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Fire Fang",
+        "Incinerate"
+      ],
+      "charged": [
+        "Overheat",
+        "Focus Blast",
+        "Psychic",
+        "Rock Slide"
+      ]
+    }
+  },
+  "Reuniclus": {
+    "types": [
+      "Psychic"
+    ],
+    "baseAttack": 214,
+    "baseDefense": 148,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Hidden Power",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Futuresight",
+        "Shadow Ball",
+        "Thunder",
+        "Psyshock"
+      ]
+    }
+  },
+  "Amoonguss": {
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "baseAttack": 155,
+    "baseDefense": 139,
+    "baseStamina": 249,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Astonish",
+        "Feint Attack"
+      ],
+      "charged": [
+        "Foul Play",
+        "Sludge Bomb",
+        "Grass Knot"
+      ]
+    }
+  },
+  "Jellicent": {
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "baseAttack": 159,
+    "baseDefense": 178,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bubble",
+        "Hex"
+      ],
+      "charged": [
+        "Shadow Ball",
+        "Ice Beam",
+        "Bubble Beam",
+        "Surf"
+      ]
+    }
+  },
+  "Alomomola": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 138,
+    "baseDefense": 131,
+    "baseStamina": 338,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Waterfall",
+        "Hidden Power"
+      ],
+      "charged": [
+        "Hydro Pump",
+        "Blizzard",
+        "Psychic"
+      ]
+    }
+  },
+  "Beartic": {
+    "types": [
+      "Ice"
+    ],
+    "baseAttack": 233,
+    "baseDefense": 152,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Powder Snow",
+        "Charm"
+      ],
+      "charged": [
+        "Ice Punch",
+        "Surf",
+        "Play Rough",
+        "Liquidation"
+      ]
+    }
+  },
+  "Stunfisk": {
+    "types": [
+      "Ground",
+      "Electric"
+    ],
+    "baseAttack": 144,
+    "baseDefense": 171,
+    "baseStamina": 240,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Thunder Shock",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Mud Bomb",
+        "Discharge",
+        "Muddy Water"
+      ]
+    }
+  },
+  "Golurk": {
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "baseAttack": 222,
+    "baseDefense": 154,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Astonish",
+        "Mud Slap"
+      ],
+      "charged": [
+        "Shadow Punch",
+        "Dynamic Punch",
+        "Earth Power",
+        "Poltergeist"
+      ]
+    }
+  },
+  "Bouffalant": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 195,
+    "baseDefense": 182,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Zen Headbutt",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Megahorn",
+        "Stomp",
+        "Skull Bash",
+        "Earthquake"
+      ]
+    }
+  },
+  "Braviary": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "baseAttack": 232,
+    "baseDefense": 152,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Steel Wing",
+        "Air Slash"
+      ],
+      "charged": [
+        "Heat Wave",
+        "Brave Bird",
+        "Rock Slide",
+        "Close Combat",
+        "Fly"
+      ]
+    }
+  },
+  "Mandibuzz": {
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "baseAttack": 129,
+    "baseDefense": 205,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Snarl",
+        "Air Slash"
+      ],
+      "charged": [
+        "Dark Pulse",
+        "Aerial Ace",
+        "Foul Play",
+        "Shadow Ball"
+      ]
+    }
+  },
+  "Hydreigon": {
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "baseAttack": 256,
+    "baseDefense": 188,
+    "baseStamina": 211,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite",
+        "Dragon Breath"
+      ],
+      "charged": [
+        "Dragon Pulse",
+        "Dark Pulse",
+        "Flash Cannon"
+      ]
+    }
+  },
+  "Cobalion": {
+    "types": [
+      "Steel",
+      "Fighting"
+    ],
+    "baseAttack": 192,
+    "baseDefense": 229,
+    "baseStamina": 209,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Metal Claw",
+        "Zen Headbutt",
+        "Double Kick"
+      ],
+      "charged": [
+        "Close Combat",
+        "Iron Head",
+        "Stone Edge"
+      ]
+    }
+  },
+  "Terrakion": {
+    "types": [
+      "Rock",
+      "Fighting"
+    ],
+    "baseAttack": 260,
+    "baseDefense": 192,
+    "baseStamina": 209,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Smack Down",
+        "Zen Headbutt",
+        "Double Kick"
+      ],
+      "charged": [
+        "Close Combat",
+        "Earthquake",
+        "Rock Slide"
+      ]
+    }
+  },
+  "Virizion": {
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "baseAttack": 192,
+    "baseDefense": 229,
+    "baseStamina": 209,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Quick Attack",
+        "Zen Headbutt",
+        "Double Kick"
+      ],
+      "charged": [
+        "Close Combat",
+        "Leaf Blade",
+        "Stone Edge"
+      ]
+    }
+  },
+  "Reshiram": {
+    "types": [
+      "Dragon",
+      "Fire"
+    ],
+    "baseAttack": 275,
+    "baseDefense": 211,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Breath",
+        "Fire Fang"
+      ],
+      "charged": [
+        "Crunch",
+        "Overheat",
+        "Draco Meteor",
+        "Stone Edge"
+      ]
+    }
+  },
+  "Zekrom": {
+    "types": [
+      "Dragon",
+      "Electric"
+    ],
+    "baseAttack": 275,
+    "baseDefense": 211,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Breath",
+        "Charge Beam"
+      ],
+      "charged": [
+        "Outrage",
+        "Wild Charge",
+        "Flash Cannon",
+        "Crunch"
+      ]
+    }
+  },
+  "Landorus": {
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "baseAttack": 289,
+    "baseDefense": 179,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Shot",
+        "Extrasensory"
+      ],
+      "charged": [
+        "Earthquake",
+        "Bulldoze",
+        "Stone Edge",
+        "Super Power"
+      ]
+    }
+  },
+  "Kyurem": {
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "baseAttack": 310,
+    "baseDefense": 183,
+    "baseStamina": 245,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Breath",
+        "Steel Wing",
+        "Ice Fang"
+      ],
+      "charged": [
+        "Dragon Pulse",
+        "Blizzard",
+        "Ancient Power",
+        "Focus Blast",
+        "Fusion Flare"
+      ]
+    }
+  },
+  "Keldeo": {
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "baseAttack": 260,
+    "baseDefense": 192,
+    "baseStamina": 209,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Poison Jab",
+        "Low Kick"
+      ],
+      "charged": [
+        "Aqua Jet",
+        "Close Combat",
+        "Hydro Pump",
+        "X Scissor",
+        "Sacred Sword"
+      ]
+    }
+  },
+  "Meloetta": {
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "baseAttack": 269,
+    "baseDefense": 188,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Quick Attack",
+        "Low Kick"
+      ],
+      "charged": [
+        "Close Combat",
+        "Fire Punch",
+        "Ice Punch",
+        "Hyper Beam"
+      ]
+    }
+  },
+  "Chesnaught": {
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "baseAttack": 201,
+    "baseDefense": 204,
+    "baseStamina": 204,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Low Kick",
+        "Vine Whip",
+        "Smack Down"
+      ],
+      "charged": [
+        "Gyro Ball",
+        "Energy Ball",
+        "Super Power",
+        "Solar Beam",
+        "Thunder Punch"
+      ]
+    }
+  },
+  "Pyroar": {
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "baseAttack": 221,
+    "baseDefense": 149,
+    "baseStamina": 200,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Fire Fang",
+        "Take Down",
+        "Ember",
+        "Incinerate"
+      ],
+      "charged": [
+        "Flame Charge",
+        "Solar Beam",
+        "Dark Pulse",
+        "Overheat"
+      ]
+    }
+  },
+  "Gogoat": {
+    "types": [
+      "Grass"
+    ],
+    "baseAttack": 196,
+    "baseDefense": 146,
+    "baseStamina": 265,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Zen Headbutt",
+        "Rock Smash",
+        "Vine Whip"
+      ],
+      "charged": [
+        "Brick Break",
+        "Leaf Blade",
+        "Seed Bomb"
+      ]
+    }
+  },
+  "Pangoro": {
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "baseAttack": 226,
+    "baseDefense": 146,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Low Kick",
+        "Snarl",
+        "Bullet Punch",
+        "Karate Chop"
+      ],
+      "charged": [
+        "Close Combat",
+        "Night Slash",
+        "Iron Head",
+        "Rock Slide"
+      ]
+    }
+  },
+  "Aromatisse": {
+    "types": [
+      "Fairy"
+    ],
+    "baseAttack": 173,
+    "baseDefense": 150,
+    "baseStamina": 226,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Charm",
+        "Charge Beam"
+      ],
+      "charged": [
+        "Moonblast",
+        "Thunderbolt",
+        "Psychic",
+        "Draining Kiss"
+      ]
+    }
+  },
+  "Malamar": {
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "baseAttack": 177,
+    "baseDefense": 165,
+    "baseStamina": 200,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Peck",
+        "Psycho Cut",
+        "Psywave"
+      ],
+      "charged": [
+        "Psybeam",
+        "Foul Play",
+        "Super Power",
+        "Hyper Beam"
+      ]
+    }
+  },
+  "Aurorus": {
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "baseAttack": 186,
+    "baseDefense": 163,
+    "baseStamina": 265,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Powder Snow",
+        "Frost Breath",
+        "Rock Throw"
+      ],
+      "charged": [
+        "Weather Ball Ice",
+        "Ancient Power",
+        "Blizzard",
+        "Thunderbolt",
+        "Hyper Beam",
+        "Meteor Beam"
+      ]
+    }
+  },
+  "Sylveon": {
+    "types": [
+      "Fairy"
+    ],
+    "baseAttack": 203,
+    "baseDefense": 205,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Charm",
+        "Quick Attack"
+      ],
+      "charged": [
+        "Moonblast",
+        "Dazzling Gleam",
+        "Draining Kiss"
+      ]
+    }
+  },
+  "Goodra": {
+    "types": [
+      "Dragon"
+    ],
+    "baseAttack": 220,
+    "baseDefense": 242,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Water Gun",
+        "Dragon Breath"
+      ],
+      "charged": [
+        "Draco Meteor",
+        "Sludge Wave",
+        "Muddy Water",
+        "Power Whip",
+        "Aqua Tail"
+      ]
+    }
+  },
+  "Avalugg": {
+    "types": [
+      "Ice"
+    ],
+    "baseAttack": 196,
+    "baseDefense": 240,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite",
+        "Ice Fang"
+      ],
+      "charged": [
+        "Crunch",
+        "Avalanche",
+        "Earthquake",
+        "Body Slam",
+        "Mirror Coat",
+        "Icy Wind"
+      ]
+    }
+  },
+  "Xerneas": {
+    "types": [
+      "Fairy"
+    ],
+    "baseAttack": 250,
+    "baseDefense": 185,
+    "baseStamina": 246,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Moonblast",
+        "Megahorn",
+        "Close Combat",
+        "Giga Impact",
+        "Thunder"
+      ]
+    }
+  },
+  "Yveltal": {
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "baseAttack": 250,
+    "baseDefense": 185,
+    "baseStamina": 246,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Sucker Punch",
+        "Snarl",
+        "Gust"
+      ],
+      "charged": [
+        "Dark Pulse",
+        "Hurricane",
+        "Focus Blast",
+        "Hyper Beam",
+        "Psychic"
+      ]
+    }
+  },
+  "Zygarde": {
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "baseAttack": 203,
+    "baseDefense": 232,
+    "baseStamina": 239,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Tail",
+        "Bite",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Outrage",
+        "Earthquake",
+        "Crunch",
+        "Hyper Beam",
+        "Bulldoze"
+      ]
+    }
+  },
+  "Decidueye": {
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "baseAttack": 213,
+    "baseDefense": 174,
+    "baseStamina": 204,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Magical Leaf",
+        "Psycho Cut"
+      ],
+      "charged": [
+        "Trailblaze",
+        "Energy Ball",
+        "Aura Sphere",
+        "Aerial Ace",
+        "Night Shade"
+      ]
+    }
+  },
+  "Incineroar": {
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "baseAttack": 214,
+    "baseDefense": 175,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Snarl",
+        "Fire Fang",
+        "Double Kick"
+      ],
+      "charged": [
+        "Fire Blast",
+        "Flame Charge",
+        "Dark Pulse",
+        "Blaze Kick",
+        "Darkest Lariat"
+      ]
+    }
+  },
+  "Gumshoos": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 194,
+    "baseDefense": 113,
+    "baseStamina": 204,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Take Down",
+        "Bite"
+      ],
+      "charged": [
+        "Hyper Fang",
+        "Crunch",
+        "Rock Tomb"
+      ]
+    }
+  },
+  "Crabominable": {
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "baseAttack": 231,
+    "baseDefense": 138,
+    "baseStamina": 219,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Rock Smash",
+        "Bubble"
+      ],
+      "charged": [
+        "Power Up Punch",
+        "Crabhammer",
+        "Payback",
+        "Ice Punch",
+        "Brick Break"
+      ]
+    }
+  },
+  "Mudsdale": {
+    "types": [
+      "Ground"
+    ],
+    "baseAttack": 214,
+    "baseDefense": 174,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Slap",
+        "Rock Smash"
+      ],
+      "charged": [
+        "Bulldoze",
+        "Body Slam",
+        "Earthquake",
+        "Heavy Slam"
+      ]
+    }
+  },
+  "Bewear": {
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "baseAttack": 226,
+    "baseDefense": 141,
+    "baseStamina": 260,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Low Kick",
+        "Shadow Claw"
+      ],
+      "charged": [
+        "Super Power",
+        "Payback",
+        "Stomp"
+      ]
+    }
+  },
+  "Oranguru": {
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "baseAttack": 168,
+    "baseDefense": 192,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Confusion",
+        "Zen Headbutt",
+        "Yawn"
+      ],
+      "charged": [
+        "Psychic",
+        "Foul Play",
+        "Futuresight",
+        "Trailblaze",
+        "Brutal Swing"
+      ]
+    }
+  },
+  "Passimian": {
+    "types": [
+      "Fighting"
+    ],
+    "baseAttack": 222,
+    "baseDefense": 160,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Counter",
+        "Rock Smash",
+        "Take Down"
+      ],
+      "charged": [
+        "Brick Break",
+        "Close Combat",
+        "Super Power",
+        "Brutal Swing"
+      ]
+    }
+  },
+  "Type Null": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 184,
+    "baseDefense": 184,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Take Down"
+      ],
+      "charged": [
+        "Tri Attack",
+        "Iron Head",
+        "Aerial Ace"
+      ]
+    }
+  },
+  "Silvally": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 198,
+    "baseDefense": 198,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Take Down",
+        "Bite"
+      ],
+      "charged": [
+        "Tri Attack",
+        "Iron Head",
+        "Aerial Ace",
+        "X Scissor"
+      ]
+    }
+  },
+  "Solgaleo": {
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "baseAttack": 255,
+    "baseDefense": 191,
+    "baseStamina": 264,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Zen Headbutt",
+        "Fire Spin"
+      ],
+      "charged": [
+        "Iron Head",
+        "Psychic Fangs",
+        "Solar Beam",
+        "Flamethrower"
+      ]
+    }
+  },
+  "Lunala": {
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "baseAttack": 255,
+    "baseDefense": 191,
+    "baseStamina": 264,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Confusion",
+        "Air Slash"
+      ],
+      "charged": [
+        "Shadow Ball",
+        "Psychic",
+        "Moonblast",
+        "Futuresight"
+      ]
+    }
+  },
+  "Nihilego": {
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "baseAttack": 249,
+    "baseDefense": 210,
+    "baseStamina": 240,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Acid",
+        "Pound",
+        "Poison Jab"
+      ],
+      "charged": [
+        "Power Gem",
+        "Gunk Shot",
+        "Sludge Bomb",
+        "Rock Slide"
+      ]
+    }
+  },
+  "Buzzwole": {
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "baseAttack": 236,
+    "baseDefense": 196,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Counter",
+        "Poison Jab"
+      ],
+      "charged": [
+        "Power Up Punch",
+        "Fell Stinger",
+        "Lunge",
+        "Super Power"
+      ]
+    }
+  },
+  "Celesteela": {
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "baseAttack": 207,
+    "baseDefense": 199,
+    "baseStamina": 219,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Air Slash",
+        "Smack Down"
+      ],
+      "charged": [
+        "Iron Head",
+        "Body Slam",
+        "Heavy Slam",
+        "Bulldoze"
+      ]
+    }
+  },
+  "Guzzlord": {
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "baseAttack": 188,
+    "baseDefense": 99,
+    "baseStamina": 440,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Snarl",
+        "Dragon Tail"
+      ],
+      "charged": [
+        "Brutal Swing",
+        "Dragon Claw",
+        "Crunch",
+        "Sludge Bomb"
+      ]
+    }
+  },
+  "Necrozma": {
+    "types": [
+      "Psychic",
+      "Dragon"
+    ],
+    "baseAttack": 337,
+    "baseDefense": 196,
+    "baseStamina": 200,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash"
+      ],
+      "charged": [
+        "Struggle"
+      ]
+    }
+  },
+  "Marshadow": {
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "baseAttack": 265,
+    "baseDefense": 190,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Sucker Punch",
+        "Counter",
+        "Poison Jab"
+      ],
+      "charged": [
+        "Close Combat",
+        "Fire Punch",
+        "Thunder Punch",
+        "Ice Punch",
+        "Rock Slide"
+      ]
+    }
+  },
+  "Zeraora": {
+    "types": [
+      "Electric"
+    ],
+    "baseAttack": 252,
+    "baseDefense": 177,
+    "baseStamina": 204,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Spark",
+        "Volt Switch"
+      ],
+      "charged": [
+        "Thunder Punch",
+        "Discharge",
+        "Wild Charge"
+      ]
+    }
+  },
+  "Melmetal": {
+    "types": [
+      "Steel"
+    ],
+    "baseAttack": 226,
+    "baseDefense": 190,
+    "baseStamina": 264,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Thunder Shock"
+      ],
+      "charged": [
+        "Flash Cannon",
+        "Thunderbolt",
+        "Hyper Beam",
+        "Rock Slide",
+        "Super Power"
+      ]
+    }
+  },
+  "Rillaboom": {
+    "types": [
+      "Grass"
+    ],
+    "baseAttack": 239,
+    "baseDefense": 168,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Scratch",
+        "Razor Leaf"
+      ],
+      "charged": [
+        "Energy Ball",
+        "Grass Knot",
+        "Earth Power"
+      ]
+    }
+  },
+  "Greedent": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 160,
+    "baseDefense": 156,
+    "baseStamina": 260,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Bite",
+        "Bullet Seed",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Body Slam",
+        "Crunch",
+        "Trailblaze"
+      ]
+    }
+  },
+  "Corviknight": {
+    "types": [
+      "Flying",
+      "Steel"
+    ],
+    "baseAttack": 163,
+    "baseDefense": 192,
+    "baseStamina": 221,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Steel Wing",
+        "Air Slash",
+        "Sand Attack"
+      ],
+      "charged": [
+        "Sky Attack",
+        "Payback"
+      ]
+    }
+  },
+  "Drednaw": {
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "baseAttack": 213,
+    "baseDefense": 164,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Waterfall",
+        "Bite"
+      ],
+      "charged": [
+        "Body Slam",
+        "Surf",
+        "Rock Blast",
+        "Crunch"
+      ]
+    }
+  },
+  "Coalossal": {
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "baseAttack": 146,
+    "baseDefense": 198,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Smack Down",
+        "Incinerate"
+      ],
+      "charged": [
+        "Rock Blast",
+        "Rock Slide",
+        "Flame Charge"
+      ]
+    }
+  },
+  "Appletun": {
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "baseAttack": 178,
+    "baseDefense": 146,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bullet Seed",
+        "Astonish"
+      ],
+      "charged": [
+        "Dragon Pulse",
+        "Energy Ball",
+        "Outrage",
+        "Seed Bomb"
+      ]
+    }
+  },
+  "Centiskorch": {
+    "types": [
+      "Fire",
+      "Bug"
+    ],
+    "baseAttack": 220,
+    "baseDefense": 158,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bug Bite",
+        "Ember"
+      ],
+      "charged": [
+        "Heat Wave",
+        "Bug Buzz",
+        "Crunch",
+        "Lunge"
+      ]
+    }
+  },
+  "Grimmsnarl": {
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "baseAttack": 227,
+    "baseDefense": 139,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite",
+        "Sucker Punch",
+        "Low Kick"
+      ],
+      "charged": [
+        "Foul Play",
+        "Dark Pulse",
+        "Play Rough",
+        "Power Up Punch"
+      ]
+    }
+  },
+  "Obstagoon": {
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "baseAttack": 180,
+    "baseDefense": 194,
+    "baseStamina": 212,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Counter",
+        "Lick"
+      ],
+      "charged": [
+        "Cross Chop",
+        "Night Slash",
+        "Hyper Beam",
+        "Gunk Shot"
+      ]
+    }
+  },
+  "Stonjourner": {
+    "types": [
+      "Rock"
+    ],
+    "baseAttack": 222,
+    "baseDefense": 182,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Rock Throw"
+      ],
+      "charged": [
+        "Stone Edge",
+        "Rock Slide",
+        "Stomp"
+      ]
+    }
+  },
+  "Copperajah": {
+    "types": [
+      "Steel"
+    ],
+    "baseAttack": 226,
+    "baseDefense": 126,
+    "baseStamina": 263,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Rock Smash"
+      ],
+      "charged": [
+        "Iron Head",
+        "Dig",
+        "Play Rough",
+        "Heavy Slam"
+      ]
+    }
+  },
+  "Dracozolt": {
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "baseAttack": 195,
+    "baseDefense": 165,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Tail",
+        "Thunder Shock"
+      ],
+      "charged": [
+        "Discharge",
+        "Dragon Pulse",
+        "Ancient Power"
+      ]
+    }
+  },
+  "Arctozolt": {
+    "types": [
+      "Electric",
+      "Ice"
+    ],
+    "baseAttack": 190,
+    "baseDefense": 166,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Powder Snow",
+        "Thunder Shock"
+      ],
+      "charged": [
+        "Discharge",
+        "Avalanche",
+        "Ancient Power"
+      ]
+    }
+  },
+  "Dracovish": {
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "baseAttack": 175,
+    "baseDefense": 185,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Breath",
+        "Water Gun"
+      ],
+      "charged": [
+        "Brine",
+        "Dragon Pulse",
+        "Ancient Power"
+      ]
+    }
+  },
+  "Arctovish": {
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "baseAttack": 171,
+    "baseDefense": 185,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Powder Snow",
+        "Water Gun"
+      ],
+      "charged": [
+        "Brine",
+        "Avalanche",
+        "Ancient Power"
+      ]
+    }
+  },
+  "Dragapult": {
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "baseAttack": 266,
+    "baseDefense": 170,
+    "baseStamina": 204,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Astonish",
+        "Dragon Tail"
+      ],
+      "charged": [
+        "Dragon Pulse",
+        "Shadow Ball",
+        "Outrage",
+        "Breaking Swipe"
+      ]
+    }
+  },
+  "Eternatus": {
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "baseAttack": 278,
+    "baseDefense": 192,
+    "baseStamina": 268,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Tail",
+        "Poison Jab"
+      ],
+      "charged": [
+        "Cross Poison",
+        "Dragon Pulse",
+        "Flamethrower"
+      ]
+    }
+  },
+  "Urshifu": {
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "baseAttack": 254,
+    "baseDefense": 177,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Rock Smash",
+        "Counter",
+        "Sucker Punch"
+      ],
+      "charged": [
+        "Brick Break",
+        "Dynamic Punch",
+        "Close Combat",
+        "Payback"
+      ]
+    }
+  },
+  "Zarude": {
+    "types": [
+      "Dark",
+      "Grass"
+    ],
+    "baseAttack": 242,
+    "baseDefense": 215,
+    "baseStamina": 233,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Vine Whip",
+        "Bite"
+      ],
+      "charged": [
+        "Power Whip",
+        "Energy Ball",
+        "Dark Pulse"
+      ]
+    }
+  },
+  "Regieleki": {
+    "types": [
+      "Electric"
+    ],
+    "baseAttack": 250,
+    "baseDefense": 125,
+    "baseStamina": 190,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Thunder Shock",
+        "Lock On",
+        "Volt Switch"
+      ],
+      "charged": [
+        "Hyper Beam",
+        "Thunder",
+        "Zap Cannon"
+      ]
+    }
+  },
+  "Regidrago": {
+    "types": [
+      "Dragon"
+    ],
+    "baseAttack": 202,
+    "baseDefense": 101,
+    "baseStamina": 400,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite"
+      ],
+      "charged": [
+        "Hyper Beam",
+        "Outrage",
+        "Dragon Pulse",
+        "Breaking Swipe"
+      ]
+    }
+  },
+  "Glastrier": {
+    "types": [
+      "Ice"
+    ],
+    "baseAttack": 246,
+    "baseDefense": 223,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Take Down"
+      ],
+      "charged": [
+        "Avalanche",
+        "Icy Wind",
+        "Bulldoze"
+      ]
+    }
+  },
+  "Spectrier": {
+    "types": [
+      "Ghost"
+    ],
+    "baseAttack": 273,
+    "baseDefense": 146,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Take Down"
+      ],
+      "charged": [
+        "Shadow Ball",
+        "Foul Play",
+        "Bulldoze"
+      ]
+    }
+  },
+  "Calyrex": {
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "baseAttack": 324,
+    "baseDefense": 194,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Confusion",
+        "Take Down"
+      ],
+      "charged": [
+        "Psyshock",
+        "Psychic",
+        "Energy Ball",
+        "Shadow Ball"
+      ]
+    }
+  },
+  "Wyrdeer": {
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "baseAttack": 206,
+    "baseDefense": 145,
+    "baseStamina": 230,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Zen Headbutt",
+        "Confusion"
+      ],
+      "charged": [
+        "Stomp",
+        "Wild Charge",
+        "Megahorn",
+        "Psychic"
+      ]
+    }
+  },
+  "Ursaluna": {
+    "types": [
+      "Ground",
+      "Normal"
+    ],
+    "baseAttack": 243,
+    "baseDefense": 181,
+    "baseStamina": 277,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Rock Smash"
+      ],
+      "charged": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Aerial Ace",
+        "Ice Punch",
+        "Trailblaze",
+        "Swift"
+      ]
+    }
+  },
+  "Skeledirge": {
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "baseAttack": 207,
+    "baseDefense": 178,
+    "baseStamina": 232,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Incinerate",
+        "Bite"
+      ],
+      "charged": [
+        "Flamethrower",
+        "Disarming Voice",
+        "Crunch",
+        "Shadow Ball",
+        "Torch Song"
+      ]
+    }
+  },
+  "Oinkologne": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 186,
+    "baseDefense": 153,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Take Down"
+      ],
+      "charged": [
+        "Dig",
+        "Trailblaze",
+        "Body Slam"
+      ]
+    }
+  },
+  "Garganacl": {
+    "types": [
+      "Rock"
+    ],
+    "baseAttack": 171,
+    "baseDefense": 212,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Smack Down",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Rock Blast",
+        "Rock Tomb",
+        "Ancient Power"
+      ]
+    }
+  },
+  "Bellibolt": {
+    "types": [
+      "Electric"
+    ],
+    "baseAttack": 184,
+    "baseDefense": 165,
+    "baseStamina": 240,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Thunder Shock",
+        "Water Gun",
+        "Sucker Punch"
+      ],
+      "charged": [
+        "Parabolic Charge",
+        "Discharge",
+        "Zap Cannon"
+      ]
+    }
+  },
+  "Espathra": {
+    "types": [
+      "Psychic"
+    ],
+    "baseAttack": 204,
+    "baseDefense": 127,
+    "baseStamina": 216,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Peck",
+        "Confusion"
+      ],
+      "charged": [
+        "Psybeam",
+        "Psyshock",
+        "Psychic",
+        "Dazzling Gleam"
+      ]
+    }
+  },
+  "Palafin": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 143,
+    "baseDefense": 144,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Waterfall",
+        "Charm",
+        "Counter"
+      ],
+      "charged": [
+        "Aqua Jet",
+        "Water Pulse",
+        "Icy Wind",
+        "Drain Punch",
+        "Acrobatics"
+      ]
+    }
+  },
+  "Cetoddle": {
+    "types": [
+      "Ice"
+    ],
+    "baseAttack": 119,
+    "baseDefense": 80,
+    "baseStamina": 239,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Ice Shard",
+        "Tackle",
+        "Powder Snow"
+      ],
+      "charged": [
+        "Body Slam",
+        "Avalanche",
+        "Heavy Slam"
+      ]
+    }
+  },
+  "Cetitan": {
+    "types": [
+      "Ice"
+    ],
+    "baseAttack": 208,
+    "baseDefense": 123,
+    "baseStamina": 347,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Ice Shard",
+        "Tackle",
+        "Powder Snow"
+      ],
+      "charged": [
+        "Body Slam",
+        "Avalanche",
+        "Heavy Slam"
+      ]
+    }
+  },
+  "Veluza": {
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "baseAttack": 196,
+    "baseDefense": 139,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Ice Fang",
+        "Zen Headbutt"
+      ],
+      "charged": [
+        "Water Pulse",
+        "Psychic Fangs",
+        "Drill Run",
+        "Crunch"
+      ]
+    }
+  },
+  "Dondozo": {
+    "types": [
+      "Water"
+    ],
+    "baseAttack": 176,
+    "baseDefense": 178,
+    "baseStamina": 312,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Waterfall",
+        "Water Gun"
+      ],
+      "charged": [
+        "Outrage",
+        "Surf",
+        "Hydro Pump",
+        "Liquidation"
+      ]
+    }
+  },
+  "Annihilape": {
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "baseAttack": 220,
+    "baseDefense": 178,
+    "baseStamina": 242,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Low Kick",
+        "Counter"
+      ],
+      "charged": [
+        "Close Combat",
+        "Low Sweep",
+        "Night Slash",
+        "Ice Punch",
+        "Shadow Ball"
+      ]
+    }
+  },
+  "Clodsire": {
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "baseAttack": 127,
+    "baseDefense": 151,
+    "baseStamina": 277,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Poison Sting",
+        "Mud Shot"
+      ],
+      "charged": [
+        "Sludge Bomb",
+        "Earthquake",
+        "Stone Edge",
+        "Acid Spray",
+        "Water Pulse"
+      ]
+    }
+  },
+  "Farigiraf": {
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "baseAttack": 209,
+    "baseDefense": 136,
+    "baseStamina": 260,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Tackle",
+        "Confusion",
+        "Double Kick"
+      ],
+      "charged": [
+        "Psychic",
+        "Thunderbolt",
+        "Mirror Coat",
+        "Psychic Fangs"
+      ]
+    }
+  },
+  "Dudunsparce": {
+    "types": [
+      "Normal"
+    ],
+    "baseAttack": 188,
+    "baseDefense": 150,
+    "baseStamina": 268,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Bite",
+        "Astonish",
+        "Rollout"
+      ],
+      "charged": [
+        "Dig",
+        "Rock Slide",
+        "Drill Run"
+      ]
+    }
+  },
+  "Kingambit": {
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "baseAttack": 238,
+    "baseDefense": 203,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Snarl",
+        "Metal Claw",
+        "Metal Sound"
+      ],
+      "charged": [
+        "Dark Pulse",
+        "Iron Head",
+        "X Scissor",
+        "Focus Blast",
+        "Foul Play"
+      ]
+    }
+  },
+  "Greattusk": {
+    "types": [
+      "Ground",
+      "Fighting"
+    ],
+    "baseAttack": 249,
+    "baseDefense": 209,
+    "baseStamina": 251,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash"
+      ],
+      "charged": [
+        "Struggle"
+      ]
+    }
+  },
+  "Screamtail": {
+    "types": [
+      "Fairy",
+      "Psychic"
+    ],
+    "baseAttack": 139,
+    "baseDefense": 234,
+    "baseStamina": 251,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash"
+      ],
+      "charged": [
+        "Struggle"
+      ]
+    }
+  },
+  "Brutebonnet": {
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "baseAttack": 232,
+    "baseDefense": 190,
+    "baseStamina": 244,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash"
+      ],
+      "charged": [
+        "Struggle"
+      ]
+    }
+  },
+  "Irontreads": {
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "baseAttack": 227,
+    "baseDefense": 216,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash"
+      ],
+      "charged": [
+        "Struggle"
+      ]
+    }
+  },
+  "Ironhands": {
+    "types": [
+      "Fighting",
+      "Electric"
+    ],
+    "baseAttack": 245,
+    "baseDefense": 177,
+    "baseStamina": 319,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash"
+      ],
+      "charged": [
+        "Struggle"
+      ]
+    }
+  },
+  "Ironjugulis": {
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "baseAttack": 249,
+    "baseDefense": 179,
+    "baseStamina": 214,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash"
+      ],
+      "charged": [
+        "Struggle"
+      ]
+    }
+  },
+  "Ironthorns": {
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "baseAttack": 250,
+    "baseDefense": 200,
+    "baseStamina": 225,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash"
+      ],
+      "charged": [
+        "Struggle"
+      ]
+    }
+  },
+  "Arctibax": {
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "baseAttack": 173,
+    "baseDefense": 128,
+    "baseStamina": 207,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Breath",
+        "Ice Fang"
+      ],
+      "charged": [
+        "Dragon Claw",
+        "Avalanche",
+        "Outrage",
+        "Icy Wind"
+      ]
+    }
+  },
+  "Baxcalibur": {
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "baseAttack": 254,
+    "baseDefense": 168,
+    "baseStamina": 229,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Dragon Breath",
+        "Ice Fang"
+      ],
+      "charged": [
+        "Dragon Claw",
+        "Avalanche",
+        "Outrage",
+        "Blizzard",
+        "Icy Wind"
+      ]
+    }
+  },
+  "Gholdengo": {
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "baseAttack": 252,
+    "baseDefense": 190,
+    "baseStamina": 202,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Astonish",
+        "Hex"
+      ],
+      "charged": [
+        "Shadow Ball",
+        "Dazzling Gleam",
+        "Focus Blast"
+      ]
+    }
+  },
+  "Tinglu": {
+    "types": [
+      "Dark",
+      "Ground"
+    ],
+    "baseAttack": 194,
+    "baseDefense": 203,
+    "baseStamina": 321,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Mud Shot",
+        "Snarl"
+      ],
+      "charged": [
+        "Dark Pulse",
+        "Bulldoze",
+        "Earthquake"
+      ]
+    }
+  },
+  "Roaringmoon": {
+    "types": [
+      "Dragon",
+      "Dark"
+    ],
+    "baseAttack": 280,
+    "baseDefense": 196,
+    "baseStamina": 233,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Splash"
+      ],
+      "charged": [
+        "Struggle"
+      ]
+    }
+  },
+  "Koraidon": {
+    "types": [
+      "Fighting",
+      "Dragon"
+    ],
+    "baseAttack": 263,
+    "baseDefense": 223,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Rock Smash",
+        "Dragon Tail"
+      ],
+      "charged": [
+        "Giga Impact",
+        "Dragon Claw",
+        "Close Combat",
+        "Outrage"
+      ]
+    }
+  },
+  "Miraidon": {
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "baseAttack": 263,
+    "baseDefense": 223,
+    "baseStamina": 205,
+    "hp": 15000,
+    "moves": {
+      "fast": [
+        "Thunder Shock",
+        "Dragon Breath"
+      ],
+      "charged": [
+        "Hyper Beam",
+        "Dragon Pulse",
+        "Thunder",
+        "Outrage"
+      ]
+    }
+  }
+}

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>포켓몬고 레이드 추천 계산기</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 30px auto;
+      max-width: 700px;
+      padding: 20px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    select, button {
+      width: 100%;
+      padding: 10px;
+      margin: 12px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .result {
+      margin-top: 30px;
+    }
+    .result > div {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    summary {
+      cursor: pointer;
+      color: #007bff;
+      margin-top: 10px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .special-move {
+      color: #d12f2f;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>레이드 추천 계산기</h1>
+
+  <label for="boss-select">보스를 선택하세요:</label>
+  <select id="boss-select" class="select2">
+    <option value="">선택</option>
+  </select>
+
+  <!-- 👇 이미지가 아래로 이동 -->
+  <div id="boss-info" style="display: none; margin-top: 12px; text-align: center;">
+    <img id="boss-image" src="" alt="" style="width: 140px; height: 140px; object-fit: contain; border-radius: 8px;">
+  </div>
+
+
+  <div id="move-select" style="display:none;">
+    <h3>보스 기술 선택</h3>
+    <label for="fast-move">Fast Move:</label>
+    <select id="fast-move" class="select2"></select>
+    <label for="charged-move">Charged Move:</label>
+    <select id="charged-move" class="select2"></select>
+  </div>
+
+  <label for="sort-by">정렬 기준:</label>
+  <select id="sort-by" class="select2">
+    <option value="er">ER</option>
+    <option value="tdo">TDO</option>
+    <option value="dps">DPS</option>
+    <option value="name">이름</option>
+  </select>
+
+  <button id="recommend-btn" style="display:none;">추천 보기</button>
+  <div class="result" id="result"></div>
+
+  <script>
+  let bossData = {};
+
+  fetch("/api/bosses")
+    .then(res => res.json())
+    .then(data => {
+      bossData = data;
+      const bossSelect = document.getElementById("boss-select");
+      bossSelect.style.maxWidth = "300px";
+      bossSelect.style.flex = "1";
+      for (const boss in data) {
+        const option = document.createElement("option");
+        option.value = boss;
+        option.textContent = boss;
+        bossSelect.appendChild(option);
+      }
+      $('.select2').select2({ width: '100%' });
+
+      $('#boss-select').on('change', function () {
+        const boss = this.value;
+        const bossImage = document.getElementById("boss-image");
+        const bossInfo = document.getElementById("boss-info");
+
+        if (boss) {
+          bossImage.src = getPokemonImageUrl(boss);
+          bossInfo.style.display = "block";
+        } else {
+          bossImage.src = "";
+          bossInfo.style.display = "none";
+        }
+
+        const moves = bossData[boss]?.moves;
+        if (!moves || !Array.isArray(moves.fast) || !Array.isArray(moves.charged)) return;
+
+        const fastSelect = $('#fast-move');
+        const chargedSelect = $('#charged-move');
+        fastSelect.empty();
+        chargedSelect.empty();
+        moves.fast.forEach(fm => fastSelect.append(new Option(fm, fm)));
+        moves.charged.forEach(cm => chargedSelect.append(new Option(cm, cm)));
+        fastSelect.trigger('change');
+        chargedSelect.trigger('change');
+        document.getElementById("move-select").style.display = "block";
+        document.getElementById("recommend-btn").style.display = "block";
+      });
+    });
+
+  function getPokemonImageUrl(name) {
+    const exceptionMap = {
+      "Mega Charizard X": "charizard-mega-x",
+      "Mega Charizard Y": "charizard-mega-y",
+      "Mega Mewtwo X": "mewtwo-mega-x",
+      "Mega Mewtwo Y": "mewtwo-mega-y"
+      // 필요시 추가
+    };
+
+    if (exceptionMap[name]) {
+      return `https://img.pokemondb.net/artwork/${exceptionMap[name]}.jpg`;
+    }
+
+    // Shadow는 이미지 없음 → 기본 폼만 사용
+    if (/\(Shadow\)/i.test(name)) {
+      name = name.replace(/\s*\(Shadow\)/i, '').trim();
+    }
+
+    let formatted = name.toLowerCase().trim();
+
+    // Mega 접두사
+    if (formatted.startsWith("mega ")) {
+      const base = formatted.replace(/^mega /, '').trim();
+      formatted = `${base}-mega`;
+    }
+    // 괄호 폼 처리 (e.g. Kyurem (Black) → kyurem-black)
+    else if (/\(.*\)/.test(formatted)) {
+      const base = formatted.replace(/\s*\(.*\)/, '').trim();
+      const form = formatted.match(/\((.*?)\)/)[1].toLowerCase().replace(/\s/g, '-');
+      formatted = `${base}-${form}`;
+    }
+
+    formatted = formatted.replace(/\s/g, '-');
+
+    return `https://img.pokemondb.net/artwork/${formatted}.jpg`;
+  }
+
+
+
+  function isMega(name) {
+    return /\(Mega\)/i.test(name) || /^Mega /i.test(name);
+  }
+  function isShadow(name) {
+  return /\(Shadow\)/i.test(name) || /^Shadow /i.test(name);
+}
+
+  // JS 내에서 추천 결과 카드 생성하는 템플릿 함수
+ function createRecommendationCard(best, others = [], rank = 1) {
+    const imageUrl = getPokemonImageUrl(best.name);
+    const cleanName = best.name.replace(/\s*\(Mega\)/i, '').replace(/^Mega\s+/i, '');
+    const megaBadge = isMega(best.name)
+      ? `<span style="background:#fde2ef; color:#c71585; font-size:10px; padding:2px 6px; border-radius:10px; margin-right:4px;">Mega</span>`
+      : "";
+    const isShadowForm = isShadow(best.name);
+    const cardBgColor = isShadowForm ? "#f3e8ff" : "white";  // 💜 연보라
+    const cardTextColor = isShadowForm ? "#4b0082" : "#000"; // 어두운 보라 텍스트
+
+    const fastIsSpecial = best.specialFastMoves?.includes(best.fastMove);
+    const chargedIsSpecial = best.specialChargedMoves?.includes(best.chargedMove);
+    const fastLabel = fastIsSpecial ? `<span class="special-move">${best.fastMove}*</span>` : best.fastMove;
+    const chargedLabel = chargedIsSpecial ? `<span class="special-move">${best.chargedMove}*</span>` : best.chargedMove;
+
+    let othersSection = "";
+    if (others.length > 0) {
+      const details = others.map(p => {
+        const fastIsSpecial = p.specialFastMoves?.includes(p.fastMove);
+        const fastLabel = fastIsSpecial ? `<span class='special-move'>${p.fastMove}*</span>` : p.fastMove;
+
+        const chargedIsSpecial = p.specialChargedMoves?.includes(p.chargedMove);
+        const chargedLabel = chargedIsSpecial ? `<span class='special-move'>${p.chargedMove}*</span>` : p.chargedMove;
+
+        return `
+          <div style="font-size: 11px; text-align: left; margin-bottom: 6px;">
+            <div>- ${fastLabel} / ${chargedLabel}</div>
+            <div style="margin-left: 8px; color: #555;">
+              ER: ${p.er.toFixed(1)} | TDO: ${p.tdo.toFixed(1)} | DPS: ${p.dps.toFixed(1)}
+            </div>
+          </div>
+        `;
+      }).join("\n");
+
+      othersSection = `
+        <div id="popup-${best.name}" class="popup-box" style="
+          display: none;
+          position: absolute;
+          top: 36px;
+          right: 6px;
+          z-index: 10;
+          background: #fff;
+          border: 1px solid #ccc;
+          border-radius: 6px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+          padding: 6px;
+          width: 180px;
+          text-align: left;
+          font-size: 11px;
+          max-height: 140px;
+          overflow-y: auto;
+        ">
+          ${details}
+        </div>
+      `;
+    }
+
+    return `
+      <div style="
+        width: 160px;
+        min-height: 200px; /* ✅ 카드 높이 통일용 */
+        background: ${cardBgColor};
+        color: ${cardTextColor};
+        border-radius: 10px;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        padding: 8px;
+        margin: 8px;
+        font-size: 12px;
+        line-height: 1.3;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        overflow: visible;
+      ">
+        <!-- 순위 배지 -->
+        <span style="
+          position: absolute;
+          top: 4px;
+          left: 4px;
+          background: #4CAF50;
+          color: white;
+          font-size: 11px;
+          padding: 2px 6px;
+          border-radius: 8px;
+          font-weight: bold;
+          z-index: 10;
+        ">${rank}</span>
+        <button onclick="togglePopup('${best.name}')" style="
+          position: absolute;
+          top: 6px;
+          right: 6px;
+          font-size: 11px;               /* ✅ 더 읽기 쉽게 */
+          padding: 3px 6px;              /* ✅ 내부 공간 확보 */
+          background: rgba(250,250,250,0.95);
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          cursor: pointer;
+          z-index: 10;
+          line-height: 1.3;
+          white-space: nowrap;
+          display: inline-block;
+          width: auto;
+          color: #333;                   /* ✅ 글자 색 강조 */
+        ">기술 ▼</button>
+
+        <img src="${imageUrl}" alt="${best.name}" style="width: 72px; height: 72px; object-fit: contain; margin-bottom: 6px;" />
+        <div style="font-weight: bold;">${megaBadge}${cleanName}</div>
+        <div style="color: #666;">${fastLabel} + ${chargedLabel}</div>
+        <div style="font-size: 11px; color: #444; margin-top: 4px;">
+          ER: ${best.er.toFixed(1)}<br>
+          TDO: ${best.tdo.toFixed(1)}<br>
+          DPS: ${best.dps.toFixed(1)}<br>
+          생존: ${best.survival.toFixed(1)}초
+        </div>
+        ${othersSection}
+      </div>
+    `;
+  }
+
+  // 💡 보스 이미지 좌우 배치용 스타일 (CSS 내 필요)
+  document.addEventListener("DOMContentLoaded", () => {
+    const bossInfo = document.getElementById("boss-info");
+    bossInfo.style.display = "block"; // 기존의 flex → block
+    bossInfo.style.textAlign = "center";
+    bossInfo.style.border = "1px solid #ddd";
+    bossInfo.style.borderRadius = "12px";
+    bossInfo.style.padding = "10px";
+    bossInfo.style.backgroundColor = "#ffffff";
+    bossInfo.style.boxShadow = "0 2px 6px rgba(0,0,0,0.1)";
+    bossInfo.style.marginTop = "12px";
+
+    const bossImage = document.getElementById("boss-image");
+    bossImage.style.width = "140px";
+    bossImage.style.height = "140px";
+    bossImage.style.borderRadius = "8px";
+    bossImage.style.objectFit = "contain";
+  });
+
+  // 타입별 색상 클래스 매핑
+  function getTypeColor(type) {
+    const map = {
+      Grass: "bg-green-100 text-green-800",
+      Fire: "bg-red-100 text-red-800",
+      Water: "bg-blue-100 text-blue-800",
+      Dragon: "bg-purple-100 text-purple-800",
+      Fairy: "bg-pink-100 text-pink-800",
+      Fighting: "bg-yellow-100 text-yellow-800",
+      Electric: "bg-yellow-100 text-yellow-800",
+      Psychic: "bg-indigo-100 text-indigo-800",
+      Ice: "bg-cyan-100 text-cyan-800",
+      Dark: "bg-gray-700 text-white",
+      Rock: "bg-yellow-200 text-yellow-900",
+      Ground: "bg-orange-100 text-orange-800",
+      Steel: "bg-gray-300 text-gray-800",
+      Bug: "bg-lime-100 text-lime-800",
+      Poison: "bg-purple-200 text-purple-900",
+      Flying: "bg-sky-100 text-sky-800",
+      Ghost: "bg-violet-200 text-violet-900",
+      Normal: "bg-gray-100 text-gray-800"
+    };
+    return map[type] || "bg-gray-100 text-gray-800";
+  }
+
+  // 기존 결과 렌더링 내부에서 함수 사용 예시
+  function renderRecommendations(data) {
+    const result = document.getElementById("result");
+    result.innerHTML = "<h3>추천 결과</h3>";
+
+    const grouped = {};
+    data.forEach(p => {
+      if (!grouped[p.name]) grouped[p.name] = [];
+      grouped[p.name].push(p);
+    });
+
+    let rank = 1;
+    Object.entries(grouped).forEach(([name, entries]) => {
+      entries.sort((a, b) => b.er - a.er);
+      const best = entries[0];
+      const others = entries.slice(1);
+
+      result.innerHTML += createRecommendationCard(best, others, rank);
+      rank +=1;
+    });
+  }
+  $('#recommend-btn').on('click', function () {
+  const boss = $('#boss-select').val();
+  const fastMove = $('#fast-move').val();
+  const chargedMove = $('#charged-move').val();
+  const sortBy = $('#sort-by').val();
+
+  fetch("/api/recommend", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ boss, fastMove, chargedMove, sortBy })
+  })
+    .then(res => res.json())
+    .then(data => {
+      renderRecommendations(data);
+    });
+  });
+  function togglePopup(name) {
+    const current = document.getElementById(`popup-${name}`);
+
+    // 모든 다른 팝업은 닫기
+    document.querySelectorAll(".popup-box").forEach(p => {
+      if (p !== current) p.style.display = "none";
+    });
+
+    // 현재 팝업만 토글
+    if (current) {
+      current.style.display = (current.style.display === "none") ? "block" : "none";
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const bossSelect = document.getElementById("boss-select");
+    const bossInfo = document.getElementById("boss-info");
+    const bossImage = document.getElementById("boss-image");
+
+    if (!bossSelect.value) {
+      bossImage.src = "";
+      bossInfo.style.display = "none";  // ✅ 보스 선택 안 되어 있으면 완전 숨기기
+    }
+  });
+
+
+  </script>
+</body>
+</html>

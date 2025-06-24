@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokémon GO 레이드 추천</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 2rem; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background-color: #f5f5f5; }
+    label { display: block; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>🔍 레이드 추천 포켓몬 계산기</h1>
+
+  <!-- 보스 선택 -->
+  <label for="bossSelect">보스를 선택하세요:</label>
+  <select id="bossSelect" onchange="loadBossInfo()"></select>
+
+  <!-- 보스 기술 선택 -->
+  <label for="fastMoveSelect">빠른 기술 선택:</label>
+  <select id="fastMoveSelect"></select>
+
+  <label for="chargedMoveSelect">차지 기술 선택:</label>
+  <select id="chargedMoveSelect"></select>
+
+  <button onclick="fetchData()">추천 보기</button>
+
+  <!-- 결과 테이블 -->
+  <table id="resultTable" style="display:none;">
+    <thead>
+      <tr>
+        <th>이름</th><th>타입</th><th>기술</th><th>DPS</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    // 보스 목록 불러오기
+    async function loadBosses() {
+      const res = await fetch('/bosses');
+      const bosses = await res.json();
+      const select = document.getElementById("bossSelect");
+
+      bosses.forEach(boss => {
+        const option = document.createElement("option");
+        option.value = boss;
+        option.textContent = boss;
+        select.appendChild(option);
+      });
+
+      // 기본 선택된 보스 정보 로딩
+      if (bosses.length > 0) {
+        loadBossInfo();
+      }
+    }
+
+    // 보스 정보 불러와 기술 드롭다운 채우기
+    async function loadBossInfo() {
+      const boss = document.getElementById("bossSelect").value;
+      const res = await fetch(`/boss_info?boss=${boss}`);
+      const data = await res.json();
+
+      const fastSelect = document.getElementById("fastMoveSelect");
+      const chargedSelect = document.getElementById("chargedMoveSelect");
+
+      fastSelect.innerHTML = "";
+      chargedSelect.innerHTML = "";
+
+      data.moves.fast.forEach(move => {
+        const opt = document.createElement("option");
+        opt.value = move;
+        opt.textContent = move;
+        fastSelect.appendChild(opt);
+      });
+
+      data.moves.charged.forEach(move => {
+        const opt = document.createElement("option");
+        opt.value = move;
+        opt.textContent = move;
+        chargedSelect.appendChild(opt);
+      });
+    }
+
+    // 추천 포켓몬 불러오기
+    async function fetchData() {
+      const boss = document.getElementById("bossSelect").value;
+      const fast = document.getElementById("fastMoveSelect").value;
+      const charged = document.getElementById("chargedMoveSelect").value;
+
+      const res = await fetch(`/counters?boss=${boss}&fast=${encodeURIComponent(fast)}&charged=${encodeURIComponent(charged)}`);
+      const data = await res.json();
+
+      const table = document.getElementById("resultTable");
+      const tbody = table.querySelector("tbody");
+      tbody.innerHTML = "";
+      table.style.display = "table";
+
+      data.forEach(p => {
+        const row = `<tr>
+          <td>${p.name}</td>
+          <td>${p.types.join(", ")}</td>
+          <td>${p.moves.join(", ")}</td>
+          <td>${p.dps}</td>
+        </tr>`;
+        tbody.insertAdjacentHTML("beforeend", row);
+      });
+    }
+
+    window.onload = loadBosses;
+  </script>
+</body>
+</html>
